@@ -1,0 +1,51 @@
+﻿@model FollowerViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    IEnumerable<Product> products = ViewBag.Products;
+}
+
+<div class="container">
+    <h1>Create</h1>
+
+    <h4>Follower</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input style="border:1px solid white" asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="4">Product</label>
+                    <select asp-for="ProductId" asp-items="@new SelectList(products, nameof(Product.Id), nameof(Product.Name))" id="4" class="form-control">
+                        <option disabled selected>Choose Product</option>
+                    </select>
+                    <span asp-validation-for="ProductId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" asp-for="ImagePath" class="control-label"></label>
+                    <input asp-for="ImagePath" class="form-control img-input" />
+                    <span asp-validation-for="ImagePath" class="text-danger"></span>
+                    <div style="width:200px" class="img-preview-container"></div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="~/assets/js/image.js"></script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

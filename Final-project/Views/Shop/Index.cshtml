@@ -1,0 +1,314 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Shop";
+    List<SubSubCategory> categories = ViewBag.Categories;
+    List<ProductSizeColor> colors = ViewBag.Colors;
+    List<ProductSizeColor> sizes = ViewBag.Sizes;
+    List<Brand> brands = ViewBag.Brands;
+
+    var previousColorIds = new List<int>();
+    var previousSizeIds = new List<int>();
+}
+@if (TempData["Favorite"] != null)
+{
+    <div id="wish" style="display:none">@TempData["Favorite"]</div>
+}
+
+<section id="Shop" class="mb-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 d-md-none d-block small-filter">
+                <div class="row">
+                    <div class="col-12 m-0 p-1">
+                        <div class="f-s filter">
+                            <p>Filter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 left-side">
+                <form id="filterForm">
+                    <div class="refine">
+                        <h5 class="cat-name">New</h5>
+                        <p class="cat-tit">REFINE BY</p>
+                        <div class="srp-cs">
+                            <div class="row cs">
+                                <div class="col-md-10 text-left">
+                                    <span>Price</span>
+                                </div>
+                                <div class="col-md-2 plus text-left">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <div class="answer">
+                                    <p>
+                                        <input type="checkbox" name="priceRange" id="price1" value="1"><label for="price1">
+                                            $0 - $100
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="priceRange" id="price2" value="2"><label for="price2">
+                                            $100 - $200
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="priceRange" id="price3" value="3"><label for="price3">
+                                            $200 - $300
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <input type="checkbox" name="priceRange" id="price4" value="4"><label for="price4">
+                                            more than $300
+                                        </label>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="row cs">
+                                <div class="col-md-10 text-left">
+                                    <span>Brand</span>
+                                </div>
+                                <div class="col-md-2 plus text-left">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <div class="answer">
+                                    @foreach (var item in brands)
+                                    {
+                                      @*   <p class="title-link" style="margin-left:13px" data-brandid="@item.Id">
+                                            <i> @item.Name</i>
+                                        </p> *@
+                                        <p>
+                                            <input type="checkbox" name="brandid" value="@item.Id" id="@item.Id" class="form-check-input mt-0">
+                                            <label for="@item.Id">@item.Name</label>
+                                        </p>
+                                    }
+                                </div>
+                            </div>
+                            <div class="row cs">
+                                <div class="col-md-10 text-left">
+                                    <span>Color</span>
+                                </div>
+                                <div class="col-md-2 plus text-left">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="answer">
+                                        <div class="row" style="position:relative">
+                                            @foreach (var item in colors)
+                                            {
+                                                if (!previousColorIds.Contains(item.ColorId))
+                                                {
+                                                    <div class="col-md-6 colors">
+                                                        <label>
+                                                            <input id="@item.Color.Id" type="checkbox" name="colorid" value="@item.Color.Id" class="form-check-input mt-0" style="position: absolute; top: 10px; left: 10px; visibility: hidden;">
+                                                            <div class="bordered">
+                                                                <div class="color title-link" style="background-color:@item.Color.Value"></div>
+                                                            </div>
+                                                            <div class="color-name title-link">
+                                                                @item.Color.Name
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                    previousColorIds.Add(item.ColorId);
+                                                }
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cs">
+                                <div class="col-md-10 text-left">
+                                    <span>Size</span>
+                                </div>
+                                <div class="col-md-2 plus text-left">
+                                    <i class="bi bi-plus"></i>
+                                </div>
+                                <div class="answer">
+                                    <div class="sizes" style="position:relative; display:flex; flex-wrap:wrap">
+                                        @foreach (var item in sizes.OrderByDescending(p => p.Id))
+                                        {
+                                            if (!previousSizeIds.Contains(item.SizeId))
+                                            {
+                                                <div class="col-md-6 sizes" style="display:flex; justify-content:center;align-items:center; width:50px;height:50px; border:1px solid black; color:black;">
+                                                    <label style="display:inline-block; width:50px;height:50px; text-align:center">
+                                                    <input id="@item.Size.Id" type="checkbox" name="sizeid" value="@item.Size.Id" class="form-check-input mt-0" style="position: absolute; top: 10px; left: 10px; visibility: hidden;">
+                                                            @(item.Size.Name.Length > 5 ? item.Size.Name.Substring(0,5) + "..." : item.Size.Name)
+                                                    </label>
+                                                </div>
+                                                previousSizeIds.Add(item.SizeId);
+                                            }
+                                        }
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-9 col-12 pro-col">
+                <form method="post" action="#" class="searching  mb-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group input mb-3" style="width:100%;display:flex;margin-bottom:20px;">
+                                    <input style="border:1px solid black;" type="text" class="form-control searching-input" name="search" placeholder="Search...." autocomplete="off" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button class="btn btn-danger search_btn" type="submit" id="button-addon2">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="pro-caption">
+                    <div class="left">
+                        
+                    </div>
+                    <div class="right">
+                        <p><b>@Model.Count()</b> Products</p>
+                    </div>
+                </div>
+
+                <div class="row" id="partials">
+                    @await Html.PartialAsync("_ProductBasketPartial", Model)
+                </div>
+                <nav class="mt-5" aria-label="...">
+                    <ul class="pagination">
+                        <li class="page-item  @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                          
+                                <a class="page-link" asp-route-categoryId="@Model.FirstOrDefault()?.SubSubCategory.Id" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage-1)" tabindex="-1">Previous</a>
+                        </li>
+                        @for (int i = 1; i <= ViewBag.TotalPage; i++)
+                        {
+                            <li class="page-item @(i==ViewBag.CurrentPage ? "active pointerNone" : "")">
+                                    <a class="page-link" asp-route-categoryId="@Model.FirstOrDefault()?.SubSubCategory.Id" asp-action="Index" asp-route-page="@i">@i</a>
+                            </li>
+                        }
+
+                        <li class="page-item @(ViewBag.TotalPage == ViewBag.CurrentPage ? "disabled" : "")">
+                            <a class="page-link" asp-route-categoryId="@Model.FirstOrDefault()?.SubSubCategory.Id" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage+1)">Next</a>
+                            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="~/assets/js/shop-search.js"></script>
+<!-------------Color-Size-Click------------->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const checkboxes = document.querySelectorAll('input[name="sizeid"]');
+        checkboxes.forEach((checkbox) => {
+            checkbox.addEventListener('change', function () {
+                const parentSizes = this.closest('.sizes');
+                if (parentSizes) {
+                    if (this.checked) {
+                        parentSizes.style.backgroundColor = 'black';
+                        parentSizes.style.color = 'white';
+                    } else {
+                        parentSizes.style.backgroundColor = '';
+                        parentSizes.style.color = 'black';
+                    }
+                }
+            });
+        });
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+        const checkboxes = document.querySelectorAll('input[name="colorid"]');
+        checkboxes.forEach((checkbox) => {
+            checkbox.addEventListener('change', function () {
+                const borderedDiv = this.parentNode.querySelector('.bordered');
+                if (this.checked) {
+                    borderedDiv.style.border = '1px solid black';
+                } else {
+                    borderedDiv.style.border = '';
+                }
+            });
+        });
+    });
+</script>
+<!-------------------------------------->
+
+<!-- Toastr Wishlist -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const data = document.getElementById("wish")
+        if (data != null) {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 6000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+            Toast.fire({
+                icon: "success",
+                title: "Updated Wishlist"
+            });
+
+        }
+    });
+</script>
+<!-- PriceRange. Select One Element -->
+<script>
+    const checkboxes = document.querySelectorAll('input[name="priceRange"]');
+    checkboxes.forEach((checkbox) => {
+        checkbox.addEventListener('change', function () {
+            checkboxes.forEach((otherCheckbox) => {
+                if (otherCheckbox !== this) {
+                    otherCheckbox.checked = false;
+                }
+            });
+        });
+    });
+</script>
+
+
+
+@section Scripts {
+    <script src="~/assets/js/shop.js"></script>
+
+    <!-- Fetch Filter -->
+    <script>
+        document.querySelectorAll("#filterForm input").forEach(function (input) {
+            input.addEventListener("change", function () {
+                sortedProduct();
+            });
+        });
+        document.getElementById("filterForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            sortedProduct();
+        });
+        function sortedProduct() {
+            var formData = new FormData(document.getElementById("filterForm"));
+            var categoryIds = @Model.FirstOrDefault()?.SubSubCategory.Id;
+            var subcategoryIds = @Model.FirstOrDefault()?.SubSubCategory.SubCategory.Id
+                            var page = @Html.Raw(Json.Serialize(ViewBag.CurrentPage));
+
+            fetch('/Shop/SortedProduct?categoryId=' + categoryIds  + '&subCategoryId=' + subcategoryIds + '&page=' + page, {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.text())
+                .then(result => {
+                    document.getElementById("partials").innerHTML = result;
+                })
+                .catch(error => console.log(error));
+        }
+    </script>
+
+
+
+
+}
+

@@ -1,0 +1,51 @@
+@import "./commonpart/header";
+@import "./index/sale";
+@import "./index/wellRed";
+@import "./index/tribeca";
+@import "./index/bestSelling";
+@import "./index/honey";
+@import "./index/wolf";
+@import "./index/collection";
+@import "./index/followers";
+@import "./index/services";
+@import "./commonpart/footer";
+@import "./about/about";
+@import "./about/story";
+@import "./about/collection";
+@import "./contact/contact";
+@import "./cart/cart";
+@import "./account/register";
+@import "./account/login";
+@import "./password/password";
+@import "./shop/shop";
+@import "./shop/details";
+@import "./shop/similar-items";
+@import "./shop/reviews";
+@import "./shop/checkout";
+@import "./profile/overview";
+@import "./profile/account-detail";
+@import "./profile/order-history";
+@import "./profile/favorites";
+
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 180px;
+
+    @media only screen and (max-width:768px) {
+        margin-top: 100px;
+    }
+
+    @media only screen and (max-width:431px) {
+        width: 120% !important;
+    }
+}

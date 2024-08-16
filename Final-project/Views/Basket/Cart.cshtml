@@ -1,0 +1,334 @@
+﻿@using Final_project.Models
+@using Final_project.Services.Interfaces
+@{
+    ViewData["Title"] = "Cart-Favorite";
+}
+
+@model Basket
+
+@if (TempData["Basket"] != null)
+{
+    <div id="cart" style="display:none">@TempData["Basket"]</div>
+}
+
+
+<section id="Cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="cart">
+                        <div class="col-md-12 cart-header">
+                            <h6 class="head">Your Bag</h6>
+                            <h6 class="subtotal">Subtotal : $@Model.TotalPrice</h6>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="nav-cart">
+                                <span class="nav-items active">
+                                    <a href="" id="shoppingBagLink"><span>Shopping Bag</span></a>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="cart-promotion">
+                                <center>KORSVIP MEMBERS ENJOY FREE GROUND SHIPPING ON EVERY ORDER.</center>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="ship-to-home">
+                                <div class="ship-to-address">SHIPPING TO AN ADDRESS
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-md-flex d-none product-card-subheader">
+                            <div class="col-md-8 col-6">
+                                <div class="pd">
+                                    <p>Product Description</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-3 subDesc">
+                                <div class="subTotal">
+                                    <p>Subtotal</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-3 subDesc">
+                                <div class="subTotal">
+                                    <p>Remove</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 lineDown"></div>
+                        </div>
+                        @if (Model.BasketItems is not null)
+                        {
+                            @foreach (var item in Model.BasketItems)
+                            {
+                                <div class="row image-info">
+                                    <div class="col-md-8 col-10">
+                                        <div class="row">
+                                            <div class="col-4 product-figure-block">
+                                                <img src="~/assets/images/website-images/@item.Product.Images.FirstOrDefault()?.Name" alt="">
+
+                                                <a asp-controller="Basket" asp-action="RemoveBasket" asp-route-id="@item.Id" asp-route-colorId="@item.ColorId" asp-route-sizeId="@item.SizeId">
+                                                    <div>
+                                                        <p>
+                                                            <i class="bi bi-heart"></i>
+                                                        </p>
+                                                        <p>
+                                                            Move to Favorites
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a href="">
+                                                    <div>
+                                                        @if (item.Product.DiscountPrice != 0)
+                                                        {
+                                                            <p style="font-size: 12px;">
+                                                                $@item.Product.DiscountPrice.ToString(".##")
+                                                            </p>
+                                                        }
+                                                        else
+                                                        {
+                                                            <p style="font-size: 12px;">
+                                                                $@item.Product.Price.ToString(".##")
+                                                            </p>
+                                                        }
+
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-8 head">
+                                                <p class="header"><strong>@item.Product.Name</strong></p>
+                                                <div class="in-demand">
+                                                    <p>
+                                                        <i class="bi bi-bag"></i> <strong>IN DEMAND!</strong> 10
+                                                        purchased in
+                                                        the last 5 days
+                                                    </p>
+                                                </div>
+                                                <p style="text-transform:uppercase" class="detail">
+                                                    SIZE:
+                                                    @item.Product.ProductSizeColors.FirstOrDefault(p => p.SizeId == item.SizeId)?.Size.Name
+                                                </p>
+                                                <p style="text-transform:uppercase" class=" detail">
+                                                    COLOR:
+                                                    @item.Product.ProductSizeColors.FirstOrDefault(p => p.ColorId == item.ColorId)?.Color.Name
+                                                </p>
+                                                <p class="detail">QTY: @item.Count</p>
+                                                <br>
+                                                <p class="pick-up">
+                                                    <i class="bi bi-gift-fill"></i> <a href="">
+                                                        Pick up in
+                                                        Store Instead
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2 d-md-block d-none">
+                                        <div class="price-x">
+                                            @if (item.Product.DiscountPrice != 0)
+                                            {
+                                                <p>$@(item.Product.DiscountPrice * item.Count)</p>
+                                            }
+                                            else
+                                            {
+                                                <p>$@(item.Product.Price * item.Count)</p>
+                                            }
+
+                                        </div>
+                                    </div>
+                                    <div class="col-2 ">
+                                        <div class="remove">
+                                            <p>
+                                                <a asp-controller="Shop" asp-action="RemoveBasket" asp-route-id="@item.Id" asp-route-colorId="@item.ColorId" asp-route-sizeId="@item.SizeId">
+                                                    <i class="bi bi-x"></i>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 lineDown"></div>
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="empty-cart" style="display:block;">
+                                <div class="col-md-12">
+                                    <div class="nav-cart">
+                                        <span class="nav-items active">
+                                            <a href="" id="shoppingBagLink"><span>Shopping Bag (0)</span></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="subtext-emptycart">
+                                    <p>You have <strong>no items</strong> in your Bag.</p>
+                                    <a asp-controller="Home" asp-action="Index" style="text-decoration:none; padding:10px 25px; color:white; background-color:black; letter-spacing:2px;">Keep shopping</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 right">
+                <div class="no-element" style="display:block">
+                    <div class="order-summary">
+                        <div class="order-summary-heading">
+                            <p><strong>ORDER SUMMARY</strong></p>
+                        </div>
+                        <div class="text">
+                            <div class="row">
+                                <div class="col-md-8 subtotal">
+                                    <p>Subtotal:</p>
+                                </div>
+                                <div class="col-md-4 price">
+                                    <p>$@Model.TotalPrice</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 subtotal">
+                                    <p>KORSVIP Ground Shipping</p>
+                                </div>
+                                <div class="col-md-4 price">
+                                    <p>FREE</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 subtotal">
+                                    <p>Estimated Tax</p>
+                                </div>
+                                <div class="col-md-4 price">
+                                    <p>$0.00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="order">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p>Order Total:</p>
+                                </div>
+                                <div class="col-md-4 price">
+                                    <p>$@Model.TotalPrice</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="checkout">
+                            @if (Model.BasketItems is not null)
+                            {
+                                if (Model.BasketItems.Count != 0)
+                                {
+                                <button style="padding:0" type="button" class="checkout-btn"><a asp-controller="Order" asp-action="Checkout" style="color:white; width:100%; height:100%; display:inline-block; text-decoration:none">Checkout</a></button>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment-method">
+                    <h6>Accepted payment methods</h6>
+                    <ul>
+                        <li>
+                            <img src="~/assets/images/Visa.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="~/assets/images/MasterCard.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="~/assets/images/AMEX.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="~/assets/images/Afterpay.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="~/assets/images/PayPal.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="~/assets/images/Discover.webp" alt="">
+                        </li>
+                        <li>
+                            <img src="~/assets/images/Gift-Card_200.svg" alt="">
+                        </li>
+                        <li>
+                            <img src="~/assets/images/Union Pay.webp" alt="">
+                        </li>
+                        <li>
+                            <img src="~/assets/images/JCP.webp" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="shipping">
+                    <p><strong>FREE SHIPPING</strong></p>
+                    <p>Delivery within 2–7 Business Days</p>
+                    <p><strong>FREE RETURNS</strong></p>
+                    <p>30-day Returns Guarantee</p>
+                </div>
+
+                <div class="srp-cs">
+                    <div class="help-text">Can We Help?</div>
+                    <div class="row cs">
+                        <div class="col-md-10 text-left">
+                            <i class="bi bi-telephone"></i>
+                            <span>Customer Service</span>
+                        </div>
+                        <div class="col-md-2 plus text-left">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        <div class="answer">
+                            <p>1-866-709-KORS (5677)</p>
+                            <p>Monday to Friday 9 AM to 9 PM EST</p>
+                            <p>Saturday to Sunday 10 AM–6PM EST</p>
+                        </div>
+                    </div>
+
+                    <div class="row cs">
+                        <div class="col-md-10 text-left">
+                            <i class="bi bi-chat-right-dots"></i>
+                            <span>Chat with us</span>
+                        </div>
+                        <div class="col-md-2 plus text-left">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        <div class="answer">
+                            <p>Monday to Friday 9 AM–9 PM EST</p>
+                            <p>Saturday to Sunday 10 AM–6PM EST</p>
+                            <button>Chat now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/assets/js/link.js"></script>
+}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const data = document.getElementById("cart")
+        if (data != null) {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+            Toast.fire({
+                icon: "success",
+                title: "Updated Basket"
+            });
+        }
+    });
+</script>
+

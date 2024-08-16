@@ -1,0 +1,52 @@
+﻿@model Product
+
+<div class="container">
+    <h1>Product Details</h1>
+    <div class="row">
+        <div class="col-lg-6">
+            <h4>Images:</h4>
+            <div>
+                @foreach (var image in Model.Images)
+                {
+                    <img style="width:450px; margin:10px" src="@Url.Content("~/assets/images/website-images/" + image.Name)" alt="@image.Name" />
+                }
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <h4>Name: </h4>
+            <p>@Model.Name</p>
+            <h4>Price:</h4>
+            <p>@Model.Price.ToString(".##")</p>
+            <h4>Discount Price:</h4>
+            <p>@Model.DiscountPrice.ToString(".##")</p>
+            <h4>Product Id:</h4>
+            <p>@Model.Id</p>
+            <h4>Sub-Sub Category:</h4>
+            <p>@Model.SubSubCategory.Name</p>
+            <h4>Sub Category:</h4>
+            <p>@Model.SubSubCategory.SubCategory.Name</p>
+            <h4>Category:</h4>
+            <p>@Model.SubSubCategory.SubCategory.Category.Name</p>
+            <h4>Brand:</h4>
+            <p>@Model.Brand.Name</p>
+            <h4>Product Size Colors:</h4>
+            <ul>
+                @foreach (var psc in Model.ProductSizeColors)
+                {
+                    <li>
+                        Color: @psc.Color.Name, Size: @psc.Size.Name, Count: @psc.Count
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

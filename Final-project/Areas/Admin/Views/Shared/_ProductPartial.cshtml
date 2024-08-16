@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Product>
+
+@foreach (var product in Model)
+{
+    <tr>
+        <td style="color:white">
+            <img style="width:60px;" src="~/assets/images/website-images/@product.Images?.FirstOrDefault()?.Name" />
+        </td>
+        <td style="color:white">
+            @Html.DisplayFor(modelItem => product.Name)
+        </td>
+        <td style="color:white">
+            $@product.Price.ToString(".##")
+        </td>
+
+        <td style="color:white">
+            $@(product.DiscountPrice == 0 ? "0" : product.DiscountPrice.ToString(".##"))
+            
+        </td>
+        
+        <td style="color:white">
+            @foreach (var colorSize in product.ProductSizeColors)
+            {
+                <p>
+                    @colorSize.Size.Name => @colorSize.Color.Name ===> @colorSize.Count
+                </p>
+            }
+        </td>
+        <td style="color:white">
+            @product.ProductSizeColors.Sum(p => p.Count)
+        </td>
+        <td>
+            <a asp-action="Update" asp-route-id="@product.Id">Update</a> |
+            <a asp-action="Details" asp-route-id="@product.Id">Details</a> |
+            <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+        </td>
+    </tr>
+}

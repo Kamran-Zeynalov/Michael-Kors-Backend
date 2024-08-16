@@ -1,0 +1,134 @@
+﻿@model AccountDetailViewModel
+@{
+    ViewData["Title"] = "Account Detail";
+}
+
+
+<section id="Account-Details">
+    <div class="container">
+        <div class="row overview">
+            <div class="account">
+                <div class="left">
+                    <h3>My Account</h3>
+                    <p>Welcome back, @User.Identity.Name.</p>
+                </div>
+                <div class="right d-md-block d-none">
+                    <h6>CAN WE HELP?</h6>
+                    <p>@Html.Raw("fidanji@code.edu.az")</p>
+                    <a asp-controller="Contact" asp-action="Index">Contact us</a>
+                </div>
+            </div>
+        </div>
+        <div class="row overview-container">
+            <div class="col-md-3">
+                <div class="my-menu">
+                    <div>
+                        <h4>My Account Menu</h4>
+                    </div>
+                    <div>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="left-side">
+                    <ul>
+                        <li class="@Html.IsSelected("Order", "Profile")"><a asp-action="Profile" asp-controller="Order">Overview</a></li>
+                        <li class="@Html.IsSelected("Account", "AccountDetail")"><a asp-action="AccountDetail" asp-controller="Account">Account details</a></li>
+                        <li class="@Html.IsSelected("Order", "OrderHistory")"><a asp-action="OrderHistory" asp-controller="Order">Order History</a></li>
+                        <li class="@Html.IsSelected("Basket", "Favorite")"><a asp-action="Favorite" asp-controller="Basket">My Favourites</a></li>
+                        <li class="@Html.IsSelected("Account", "ChangePassword")"><a asp-action="ChangePassword" asp-controller="Account">Change Password</a></li>
+                    </ul>
+                    <div class="line d-md-block d-none"></div>
+                    <div class="logout">
+                        <a asp-controller="Account" asp-action="LogOut">Sign Out</a>
+                    </div>
+                </div>
+                <div class="my-menu">
+                    <div>
+                        <h4>Can We Help</h4>
+                    </div>
+                    <div>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="left-side d-md-none">
+                    <ul>
+                        <li style="border-bottom: 1px solid black; width: fit-content;" class="active">
+                            <a>@Html.Raw("fidanji@code.edu.az")</a>
+                        </li>
+                        <li style="border-bottom: 1px solid black; width: fit-content;">
+                            <a asp-controller="Contact" asp-action="Index">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="right-side">
+                    <h2>ACCOUNT DETAILS</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="my-info-wrap">
+                                <div class="my-menu">
+                                    <h6>Personal Information</h6>
+                                    <div>
+                                        <p>-</p>
+                                    </div>
+                                </div>
+                                <div class="left-side" style="display: block;">
+                                    <p>
+                                        Share some additional information with us to receive Birthday Rewards and
+                                        more!
+                                    </p>
+                                    <a href="" id="profileEditLink">Complete My Profile</a>
+                                    <div class="my-info">
+                                        <div class="full-name">@Model.FirstName @Model.LastName</div>
+                                        <div class="my-email">@Model.EmailAddress</div>
+                                        <button id="editButton"><i class="bi bi-pencil-square"></i>EDIT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="edit">
+                                <h6>Edit Personal Information</h6>
+                                <form asp-action="AccountDetail" method="post" class="edit-personal-info">
+                                    <div class="form-group">
+                                        <label asp-for="FirstName" class="form-control-label" for="FirstName">First Name*</label>
+                                        <span class="required">*Required</span>
+                                        <input asp-for="FirstName" type="text" class="form-control" id="firstName" value="@Model.FirstName">
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="LastName" class="form-control-label" for="LastName">Last Name*</label>
+                                        <input asp-for="LastName" type="text" class="form-control" id="lastName" value="@Model.LastName">
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="EmailAddress" class="form-control-label" for="EmailAddress">
+                                            Email Address*
+                                        </label>
+                                        <input readonly asp-for="EmailAddress" type="email" class="form-control" id="emailAddress" value="@Model.EmailAddress">
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="PhoneNumber" class="form-control-label" for="PhoneNumber">
+                                            Phone Number*
+                                        </label>
+                                        <input asp-for="PhoneNumber" type="number" class="form-control" id="phoneNumber" value="@Model.PhoneNumber">
+                                    </div>
+                                    <button class="button-save-changes" type="submit">SAVE CHANGES</button>
+                                    <button class="cancel-btn" id="cancelButton" type="button">Cancel</button>
+                                    @if (!string.IsNullOrWhiteSpace(Model?.ErrorMessage))
+                                    {
+                                        <span style="color:red">@Model.ErrorMessage</span>
+                                    }
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section Scripts {
+    <script src="~/assets/js/account-detail.js"></script>
+}

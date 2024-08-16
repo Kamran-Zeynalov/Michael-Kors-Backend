@@ -1,0 +1,119 @@
+﻿@model ProductViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="container">
+    <h1>Create</h1>
+
+    <h4>Product</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label style="color:white" asp-for="Name" class="control-label"></label>
+                    <input style="border:1px solid white" asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" asp-for="Price" class="control-label"></label>
+                    <input max="10000000" style="border:1px solid white" asp-for="Price" class="form-control" value="@Model.Price.ToString(".##")" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DiscountPrice" class="control-label"></label>
+                    <input max="9999999" style="border:1px solid white" asp-for="DiscountPrice" class="form-control" value="@Model.DiscountPrice.ToString(".##")" />
+                    <span asp-validation-for="DiscountPrice" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label style="color:white" for="4">Sub-Sub-Category</label>
+                    <select asp-for="SubSubCategoryId" id="4" class="form-control">
+                        <option disabled selected>Choose Sub-Sub-Category</option>
+                        @foreach (var subSubCategory in Model.SubSubCategories)
+                        {
+                            <option value="@subSubCategory.Id">@subSubCategory.Name/@subSubCategory.SubCategory.Name / @subSubCategory.SubCategory.Category.Name</option>
+                        }
+                    </select>
+                    <span asp-validation-for="SubSubCategoryId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" for="4">Brand</label>
+                    <select asp-for="BrandId" asp-items="@new SelectList(Model.Brands, nameof(Brand.Id), nameof(Brand.Name))" id="12" class="form-control">
+                        <option disabled selected>Choose Brand</option>
+                    </select>
+                    <span asp-validation-for="BrandId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" for="4">Color</label>
+                    <select asp-for="ColorId" asp-items="@new SelectList(Model.Colors, nameof(Color.Id), nameof(Color.Name))" id="01" class="form-control">
+                    </select>
+                    <span asp-validation-for="ColorId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" for="4">Size</label>
+                    <select asp-for="SizeId" asp-items="@new SelectList(Model.Sizes, nameof(Size.Id), nameof(Size.Name))" id="02" class="form-control">
+                    </select>
+                    <span asp-validation-for="SizeId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" class="control-label"></label>
+                    <input min="1" style="border:1px solid white" asp-for="Count" class="form-control" />
+                    <span asp-validation-for="Count" class="text-danger"></span>
+                </div>
+                <div>
+                    <span id="add-inp" style="display:inline-block;padding:3px 6px; border-radius:7px; border:1px solid green; color:green">add</span>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" asp-for="ColorSizeCount" class="control-label"></label>
+                    <input readonly style="border:1px solid white" asp-for="ColorSizeCount" autocomplete="off" class="form-control" />
+                    <span id="del-inp" style="display:inline-block;padding:3px 6px; border-radius:7px; border:1px solid red; color:red">Sil</span>
+                    <span asp-validation-for="ColorSizeCount" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label style="color:white" asp-for="ImageFiles" class="control-label"></label>
+                    <input multiple asp-for="ImageFiles" class="form-control img-input" />
+                    <span asp-validation-for="ImageFiles" class="text-danger"></span>
+                    <div style="width:200px" class="img-preview-container"></div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="~/assets/js/ColorSizeCount.js"></script>
+    <script src="~/assets/js/image.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var priceInput = document.querySelector('[name="Price"]');
+            var discountPriceInput = document.querySelector('[name="DiscountPrice"]');
+
+            discountPriceInput.addEventListener('input', function () {
+                var discountPrice = parseFloat(discountPriceInput.value);
+                var price = parseFloat(priceInput.value);
+
+                if (discountPrice >= price) {
+                    discountPriceInput.value = price - 1;
+                    alert('Discount price cannot be bigger than the price.');
+                }
+            });
+        });
+    </script>
+}

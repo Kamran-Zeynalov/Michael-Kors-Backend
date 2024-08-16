@@ -1,0 +1,228 @@
+﻿@using Final_project.Models;
+@{
+    ViewData["Title"] = "Login";
+}
+@model LoginViewModel
+
+@if (TempData["Login"] != null)
+{
+    <div id="verify" style="display:none">@TempData["Login"]</div>
+}
+
+@if (TempData["Register"] != null)
+{
+    <div id="register" style="display:none">@TempData["Register"]</div>
+}
+@if (TempData["Security"] != null)
+{
+    <div id="security" style="display:none">@TempData["Security"]</div>
+}
+
+
+<section id="Login">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 p-0">
+                <div class="reset-password">
+                    <div class="message">
+                        We’ve updated our password requirements. To log in, you will need to
+                        <a asp-controller="Account" asp-action="ForgotPasswordPage">update your password.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 p-0">
+                <div class="sign-in">
+                    <h2>Sign In</h2>
+                    <div class="sign-in-message">
+                        Sign in to view your <strong>KORS</strong>VIP account and status
+                    </div>
+                    <div class="tab-content">
+                        <form class="login" asp-action="Login" method="post">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="form-control-label" for="EmailAddress">Email Address*</label>
+                                <span class="required">*Required</span>
+                                <input asp-for="Email" type="email" class="form-control" id="emailAddress">
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Password" class="form-control-label" for="Password">Password*</label>
+                                <div class="password-input-container">
+                                    <span asp-validation-for="Password"></span>
+                                    <input asp-for="Password" type="password" class="form-control toggleable-password" id="password">
+                                    <span class="toggle-password toggle-password-hide">
+                                        <img src="~/assets/images/Hide.svg" alt="">
+                                    </span>
+                                    <span class="toggle-password toggle-password-show d-none">
+                                        <img src="~/assets/images/Show.svg" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input asp-for="RememberMe" type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label asp-for="RememberMe" class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                <a asp-controller="Account" asp-action="ForgotPasswordPage">Forgot Password?</a>
+                            </div>
+                            <button class="button-submit" type="submit">SIGN IN</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-6 p-0">
+                <div class="registration">
+                    <h3>Join <strong>KORS</strong>VIP</h3>
+                    <div class="create-account-message">
+                        Join <strong>KORS</strong>VIP by creating a Michael Kors account
+                    </div>
+                    <div class="register-message">
+                        <div class="register-benefit">
+                            Register with Michael Kors and enjoy the benefits of having an account:
+                        </div>
+                        <ul>
+                            <li>Latest News & Exclusive Offers</li>
+                            <li>Order History & Address Book</li>
+                            <li>Save items in your Wishlist</li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-block primary-button-custom join-btn" asp-action="Register" asp-controller="Account" role="button">JOIN KORSVIP</a>
+                </div>
+            </div>
+            <div class="col-lg-12 p-0">
+                <div class="kors-vip-container">
+                    <div class="mk-korsvip-section">
+                        <div class="mk-korsvip-overview">
+                            <div class="mk-korsvip-brief">
+                                <div class="sub-title-container">
+                                    <div class="sub-title"><strong>KORS</strong>VIP - A MORE REWARDING WAY TO SHOP</div>
+                                    <div class="sub-details">
+                                        <strong>KORS</strong>VIP invites you to discover our unparalleled rewards
+                                        program. Enjoy insider experiences, special gifts, elite services and so much more.
+                                    </div>
+                                </div>
+                                <div class="korsVIP-stages">
+                                    <ul>
+                                        <li>
+                                            <div class="korsVIP-stage">STUDIO</div>
+                                            <div class="korsVIP-points">Free to Join</div>
+                                        </li>
+                                        <li class="bar"></li>
+                                        <li>
+                                            <div class="korsVIP-stage">BACKSTAGE</div>
+                                            <div class="korsVIP-points">3000+ Point</div>
+                                        </li>
+                                        <li class="bar"></li>
+                                        <li>
+                                            <div class="korsVIP-stage">RUNWAY</div>
+                                            <div class="korsVIP-points">6000+ Point</div>
+                                        </li>
+                                        <li class="bar"></li>
+                                        <li>
+                                            <div class="korsVIP-stage">RED CARPET</div>
+                                            <div class="korsVIP-points">15000+ Point</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mk-korsVIP-benefits">
+                                <div class="korsVIP-sub-title">
+                                    <strong>KORS</strong>VIP Benefits
+                                </div>
+                                <div class="korsVIP-benefit-list">
+                                    <ul>
+                                        <li>
+                                            <img src="~/assets/images/korsvip-free-shipping.svg" alt="">
+                                            <div class="label">Free Standard Shipping & Returns</div>
+                                        </li>
+                                        <li>
+                                            <img src="~/assets/images/my_benefits-private_styling_and_appointments.svg" alt="">
+                                            <div class="label">Private Styling + Appointments</div>
+                                        </li>
+                                        <li>
+                                            <img src="~/assets/images/my_benefits-early_access_to_new_arrivals.svg" alt="">
+                                            <div class="label">Early Access to Sale</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="learn-more-link">
+                                <a href="https://www.michaelkors.com/about-kors-vip.html" target="_blank">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");} 
+    <script src="~/assets/js/password.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const data = document.getElementById("verify")
+            if (data != null) {
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 6000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "warning",
+                    title: "The email or password is invalid"
+                });
+
+            }
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const data = document.getElementById("register")
+            if (data != null) {
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 6000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "success",
+                    title: "Please, Check your E-mail"
+                });
+
+            }
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const data = document.getElementById("security")
+            if (data != null) {
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 6000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "success",
+                    title: "Password successfully changed"
+                });
+
+            }
+        });
+    </script>
+}

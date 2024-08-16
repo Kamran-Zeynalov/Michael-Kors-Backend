@@ -1,0 +1,128 @@
+#Mk-Collection {
+  width: 95%;
+  margin: 50px auto;
+
+  .collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+
+    .image1 {
+      display: flex;
+      justify-content: flex-end;
+      padding: 0 12px;
+
+      img {
+        width: 100%;
+        margin-left: auto;
+      }
+
+      @media only screen and (max-width:768px){
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
+    .image2 {
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 12px;
+
+      img {
+        width: 100%;
+        margin-right: auto;
+      }
+
+      @media only screen and (max-width:768px){
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
+    .collection-part {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h5 {
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+
+      .about {
+        width: 70%;
+        margin: 20px auto;
+        letter-spacing: 2px;
+        font-size: 17px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+
+        @media only screen and (max-width:933px){
+          font-size: 15px;
+        }
+
+        @media only screen and (max-width:850px){
+          font-size: 13px;
+        }
+      }
+
+      .link {
+        width: 70%;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+          text-transform: uppercase;
+          font-size: 15px;
+          font-weight: 600;
+          color: black;
+          text-decoration: none;
+
+          @media only screen and (max-width:933px){
+            font-size: 13px;
+          }
+          @media only screen and (max-width:850px){
+            font-size: 13px;
+          }
+        }
+
+        .icon {
+          margin-bottom: 19.5px;
+
+          i {
+            font-size: 8px;
+            display: inline-block;
+            margin-top: 3px;
+            margin-left: 7px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    width: 100%;
+
+    .collection-part {
+      .about {
+        width: 100% !important;
+      }
+
+      .link {
+        width: 100% !important;
+      }
+    }
+
+
+  }
+
+}

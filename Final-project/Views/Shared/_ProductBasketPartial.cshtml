@@ -1,0 +1,58 @@
+﻿@model List<Product>
+
+@foreach (var product in Model)
+{
+    <div class="col-sm-3 col-6">
+        <div class="product">
+            <a asp-action="AddWislist" asp-route-id="@product.Id" asp-route-categoryId="@product.SubSubCategory.Id" asp-route-subCategoryId="@product.SubSubCategory.SubCategory.Id">
+                <div class="heart-icon">
+                    <i style="color:red;" class="bi bi-suit-heart"></i>
+                </div>
+            </a>
+            <div class="image">
+                <img src="~/assets/images/website-images/@product.Images.FirstOrDefault()?.Name" alt="">
+            </div>
+            <a style="text-decoration:none" asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@product.Id">
+                <div class="name-price-color">
+                    <p>
+                        @if (product.Name.Length > 17)
+                        {
+                            @(product.Name.Substring(0, 18))
+                            <span>...</span>
+                        }
+                        else
+                        {
+                            @(product.Name)
+                        }
+                    </p>
+                    <p class="prices">
+                        
+                        @if (product.DiscountPrice != 0)
+                        {
+                            <span><del>$@product.Price.ToString(".##")</del></span>
+                            <span style="text-decoration:none;">$@product.DiscountPrice.ToString(".##")</span>
+                        }
+                        else
+                        {
+                            <span style="text-decoration:none;">$@product.Price.ToString(".##")</span>
+                        }
+                    </p>
+                    <div class="colors">
+                        @{
+                            var uniqueColors = new HashSet<string>();
+                            foreach (var color in product.ProductSizeColors)
+                            {
+                                if (!uniqueColors.Contains(color.Color.Value))
+                                {
+                                    uniqueColors.Add(color.Color.Value);
+                                    <p class="color" style="background-color : @color.Color.Value"></p>
+                                }
+                            }
+                        }
+                    </div>
+                    <div class="kors">@product.Brand.Name</div>
+                </div>
+            </a>
+        </div>
+    </div>
+}

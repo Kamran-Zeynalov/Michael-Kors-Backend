@@ -1,0 +1,72 @@
+﻿@model List<Order>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+    <h1>Index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="color:white">
+                    Address
+                </th>
+                <th style="color:white">
+                    TotalPrice
+                </th>
+                <th style="color:white">
+                    User
+                </th>
+                <th style="color:white">
+                    Status
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr style="color:white">
+                    <td style="color:white">
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td style="color:white">
+                        @item.TotalPrice.ToString(".##")
+                    </td>
+                    <td style="color:white">
+                        @(item.User.Name + " " + item.User.SurName)
+                    </td>
+
+                    @if (item.Status == null)
+                    {
+                        <td style="color:white">
+                            <button class="btn btn-warning">
+                                On Hold
+                            </button>
+                        </td>
+                    }
+                    else if (item.Status == true)
+                    {
+                        <td style="color:white">
+                            <button class="btn btn-success">
+                                Confirmed
+                            </button>
+                        </td>
+                    }
+                    else
+                    {
+                        <td style="color:white">
+                            <button class="btn btn-danger">
+                                Reject
+                            </button>
+                        </td>
+                    }
+                    <td>
+                        <a asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

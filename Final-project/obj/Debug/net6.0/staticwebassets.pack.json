@@ -1,0 +1,2253 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Final-project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Final-project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\admin\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\1-korsvip.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\1-korsvip.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\10_Chat_bot.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\10_Chat_bot.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\11_Call.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\11_Call.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\2-get_in_touch.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\2-get_in_touch.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\3-give_get.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\3-give_get.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\30R4GTVT7O-2068_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\30R4GTVT7O-2068_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\30S2G6AT2B-1335_1.jfif",
+      "PackagePath": "staticwebassets\\assets\\images\\30S2G6AT2B-1335_1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\32H3GTMN1U-0160_IS.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\32H3GTMN1U-0160_IS.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\4-pre-loved.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\4-pre-loved.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\40S4COHS1H-0005_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\40S4COHS1H-0005_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\450x450.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\450x450.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\5-kors_services.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\5-kors_services.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\6-kors_loves.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\6-kors_loves.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\63_Envelope.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\63_Envelope.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\672X300.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\672X300.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\897X300.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\897X300.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_10.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_10.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_11.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_11.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_3.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_4.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_8.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\ABOUT_US_9.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\ABOUT_US_9.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\AMEX.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\AMEX.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\Afterpay.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Afterpay.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\App_Bonus.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\App_Bonus.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\Discover.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\Discover.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\Gift-Card_200.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Gift-Card_200.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_1.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_2-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_2-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_2-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_3-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_3-2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_3-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_3-3.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_3-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_3-4.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_3-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\HP_PROMO_6_V2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\HP_PROMO_6_V2.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\Hide.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Hide.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\JCP.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\JCP.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\KorsVIP_Logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\KorsVIP_Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\MasterCard.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\MasterCard.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\PayPal.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\PayPal.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\Review_Bonus.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Review_Bonus.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\SALE_BANNER_V1.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\SALE_BANNER_V1.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\Show.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Show.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\SignUp_Bonus.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\SignUp_Bonus.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\Union Pay.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\Union Pay.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\Visa.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\Visa.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\WishList_Bonus.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\WishList_Bonus.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\favicon-32x32.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon-32x32.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\korsvip-free-shipping.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\korsvip-free-shipping.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\korsvip-login-en-mobile.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\korsvip-login-en-mobile.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\logo_mk.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\logo_mk.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\michael-kors.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\michael-kors.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\my_benefits-early_access_to_new_arrivals.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\my_benefits-early_access_to_new_arrivals.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\my_benefits-private_styling_and_appointments.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\my_benefits-private_styling_and_appointments.svg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\userProfile.png",
+      "PackagePath": "staticwebassets\\assets\\images\\userProfile.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\0MK-1126-0040_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\0MK-1126-0040_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\10143H3ZUFS2B-1717_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\10143H3ZUFS2B-1717_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\106MK1087SET-0040_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\106MK1087SET-0040_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\10830H3S4TC3F-1999_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\10830H3S4TC3F-1999_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\118windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\118windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\121MS48252APQ-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\121MS48252APQ-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\124MS4829AB0N-0018_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\124MS4829AB0N-0018_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\12543S4RLFS7D-3181_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\12543S4RLFS7D-3181_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\127liz-climo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\127liz-climo-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\12930027-0670_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\12930027-0670_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\131MK-9040-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\131MK-9040-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\13540R4BRMS1L-1999_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\13540R4BRMS1L-1999_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\14030S4SBAL2V-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\14030S4SBAL2V-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\141MS48252APQ-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\141MS48252APQ-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\1630S4SBAL2V-0001_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1630S4SBAL2V-0001_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\17043H3ZUFS2B-1717_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\17043H3ZUFS2B-1717_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\17740S4AMHS2L-2714_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\17740S4AMHS2L-2714_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\17830S4SBAL2H-0005_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\17830S4SBAL2H-0005_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\17940T2RUHE5L-0001_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\17940T2RUHE5L-0001_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\18340S4ELHS4L-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\18340S4ELHS4L-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\18640R4NRFA1L-0230_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\18640R4NRFA1L-0230_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\190Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\190Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\19130R4GTVT7O-2068_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\19130R4GTVT7O-2068_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\210star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\210star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\213Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\213Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\217windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\217windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\21840S4COHS2L-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\21840S4COHS2L-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\223MK-1148-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\223MK-1148-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\226CH3402DBAE-0100_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\226CH3402DBAE-0100_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\22743T2CNFS1L-2605_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\22743T2CNFS1L-2605_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\227Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\227Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\227MK-2191-1218_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\227MK-2191-1218_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\232Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\232Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\23330S3SIMM8L-1999_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\23330S3SIMM8L-1999_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\241MS48283ENX-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\241MS48283ENX-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\24440R4NRFA1L-0230_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\24440R4NRFA1L-0230_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\246450x450.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\246450x450.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\246MKS8006-0040_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\246MKS8006-0040_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\247star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\247star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\25330H3S8OC3L-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\25330H3S8OC3L-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\2543H3ZUFS2B-1717_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\2543H3ZUFS2B-1717_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\25943S4ARFS4D-0001_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\25943S4ARFS4D-0001_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\2636S4LCOZ7L-0230_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\2636S4LCOZ7L-0230_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\26MR4821HATQ-7270_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\26MR4821HATQ-7270_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\26indir.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\26indir.png"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\272star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\272star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\27616111-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\27616111-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\27star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\27star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\28140R4NRFA1L-0230_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\28140R4NRFA1L-0230_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\287Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\287Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\28843S3WIFS1D-1663_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\28843S3WIFS1D-1663_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\296MS4820SAVS-0018_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\296MS4820SAVS-0018_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\29930S4SBAL2L-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\29930S4SBAL2L-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\300MKC1666CZ-0040_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\300MKC1666CZ-0040_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\30230S4SBAL2V-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\30230S4SBAL2V-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\3043H3ZUFS2B-1717_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3043H3ZUFS2B-1717_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\30630H3S8OC3L-0001_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\30630H3S8OC3L-0001_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\307MK-2191-1218_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\307MK-2191-1218_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\308MR4822C33D-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\308MR4822C33D-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\311MS3904180V-1999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\311MS3904180V-1999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\31340S4COHS2L-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\31340S4COHS2L-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\32440F3HYME5Y-1251_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\32440F3HYME5Y-1251_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\326MKC1716CZ-0040_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\326MKC1716CZ-0040_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\32730S3SIMM8L-1999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\32730S3SIMM8L-1999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\32740R2ZMFE7D-2999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\32740R2ZMFE7D-2999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\329MS482E97R3-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\329MS482E97R3-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\334liz-climo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\334liz-climo-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\33540F1MNFB5Q-2999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\33540F1MNFB5Q-2999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\33832S3SATU3L-1999_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\33832S3SATU3L-1999_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\34040F1MNFB5Q-2999_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\34040F1MNFB5Q-2999_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\345MF330IH1RE-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\345MF330IH1RE-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\348MR3100CENX-5544_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\348MR3100CENX-5544_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\34940H3WBFE5S-0001_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\34940H3WBFE5S-0001_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\35543R4HYFS2E-1999_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\35543R4HYFS2E-1999_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\356Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\356Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\356MKC1405AN-0040_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\356MKC1405AN-0040_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\36043S4RLFS7D-3181_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\36043S4RLFS7D-3181_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\36240S4COHS2L-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\36240S4COHS2L-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\365Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\365Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\375windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\375windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\376MK-1126-0040_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\376MK-1126-0040_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\38416111-0001_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\38416111-0001_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\38540S4AMHS2L-2714_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\38540S4AMHS2L-2714_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\38730S3SIMM8L-1999_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\38730S3SIMM8L-1999_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\387star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\387star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\390538313-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\390538313-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\39240S4AMHS2L-2714_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\39240S4AMHS2L-2714_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\393MKC1452AN-0040_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\393MKC1452AN-0040_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\39440S4ELHS4L-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\39440S4ELHS4L-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\39940T0LAHS1L-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\39940T0LAHS1L-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\400MS4904P80V-1999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\400MS4904P80V-1999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\40515229-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\40515229-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\405windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\405windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\40716111-0001_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\40716111-0001_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\4130027-0670_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4130027-0670_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\413MK-2191-1218_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\413MK-2191-1218_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\41730S2G2BL1U-2623_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\41730S2G2BL1U-2623_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\41835H3GGZN9B-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\41835H3GGZN9B-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\425MF381OH3GZ-3168_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\425MF381OH3GZ-3168_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\42liz-climo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\42liz-climo-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\43043R3OLFE2D-0251_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\43043R3OLFE2D-0251_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\432MK-2191-1218_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\432MK-2191-1218_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\4330S4SBAL2L-0001_9.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4330S4SBAL2L-0001_9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\439MH3814XABE-1088_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\439MH3814XABE-1088_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\44343S4ARFS4D-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\44343S4ARFS4D-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\443MKS8006-0040_6.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\443MKS8006-0040_6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\458MK-1148-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\458MK-1148-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\46140S4ELHS4L-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\46140S4ELHS4L-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\461star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\461star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\467450x450 (1).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\467450x450 (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\46816111-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\46816111-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\470star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\470star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\47940S4TSHP3D-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\47940S4TSHP3D-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\481Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\481Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\48715229-0001_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\48715229-0001_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\487MR4826Y3GZ-6990_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\487MR4826Y3GZ-6990_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\490MK-1126-0040_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\490MK-1126-0040_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\491star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\491star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\492MS430NCENX-0240_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\492MS430NCENX-0240_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\49330027-0670_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\49330027-0670_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\495liz-climo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\495liz-climo-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\49740T2RUHE5L-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\49740T2RUHE5L-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\497MS420EAE72-0407_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\497MS420EAE72-0407_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\50043R3OLFE2D-0251_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\50043R3OLFE2D-0251_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\50232S3SATU3L-1999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\50232S3SATU3L-1999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\50414129-0201_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\50414129-0201_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\50937F3COLA6U-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\50937F3COLA6U-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\514Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\514Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\514MS4829AB0N-0018_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\514MS4829AB0N-0018_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\514star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\514star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\52130027-0670_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\52130027-0670_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\523MK-2191-1218_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\523MK-2191-1218_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\52516111-0001_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\52516111-0001_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\52940S4SYFS2Y-4050_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\52940S4SYFS2Y-4050_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\52940S4TSHP3D-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\52940S4TSHP3D-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\532windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\532windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\5330T9G0LE3L-1663_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5330T9G0LE3L-1663_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\536MK-9040-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\536MK-9040-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\53740H3WBFE5S-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\53740H3WBFE5S-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\538MS381M033D-3167_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\538MS381M033D-3167_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\5416111-0001_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5416111-0001_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\54332S3SATU3L-1999_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\54332S3SATU3L-1999_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\543S4RLFS7D-3181_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\543S4RLFS7D-3181_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\54430027-0670_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\54430027-0670_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\54930027-0670_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\54930027-0670_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\555MS4820SAVS-0018_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\555MS4820SAVS-0018_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\556MS381M033D-3167_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\556MS381M033D-3167_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\56135S3GTVD3L-2610_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\56135S3GTVD3L-2610_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\5643R4HYFS2E-1999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5643R4HYFS2E-1999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\56830027-0670_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\56830027-0670_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\56MF381OH3GZ-3168_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\56MF381OH3GZ-3168_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\57343S4RLFS7D-3181_8.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\57343S4RLFS7D-3181_8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\577GWK-8463-MK-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\577GWK-8463-MK-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\581windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\581windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\58240R4BRMS1L-1999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\58240R4BRMS1L-1999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\586Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\586Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\593star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\593star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\600MS48283ENX-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\600MS48283ENX-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\603OF150AD5MF-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\603OF150AD5MF-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\615MK-1126-0040_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\615MK-1126-0040_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\617MS420DMFAU-3110_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\617MS420DMFAU-3110_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\617MS4827JB0Z-0018_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\617MS4827JB0Z-0018_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\618MKC1452AN-0040_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\618MKC1452AN-0040_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\621450x450 (4).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\621450x450 (4).webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\62530H3S4TC3F-1999_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\62530H3S4TC3F-1999_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\62735H3S3WL8L-1376_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\62735H3S3WL8L-1376_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\62840R2ZMFE7D-2999_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\62840R2ZMFE7D-2999_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\628MS4822R33D-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\628MS4822R33D-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\63436S4LCOZ7L-0230_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\63436S4LCOZ7L-0230_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\63windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\63windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\643MS420DMFAU-3110_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\643MS420DMFAU-3110_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\64430S2G2BL1U-2623_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\64430S2G2BL1U-2623_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\647liz-climo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\647liz-climo-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\65143S4ARFS4D-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\65143S4ARFS4D-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\65330S4SBAL2L-0001_8.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\65330S4SBAL2L-0001_8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\65530T9G0LE3L-1663_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\65530T9G0LE3L-1663_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\66043S4SCFS1S-0656_8.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\66043S4SCFS1S-0656_8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\666MK1087SET-0040_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\666MK1087SET-0040_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\66740T2RUHE5L-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\66740T2RUHE5L-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\672MS4822IBFD-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\672MS4822IBFD-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\679Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\679Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\68343T2CNFS1L-2605_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\68343T2CNFS1L-2605_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\68840F1KYME8L-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\68840F1KYME8L-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\68Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\68Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\68MR4821HATQ-7270_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\68MR4821HATQ-7270_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\69430H3S8OC3L-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\69430H3S8OC3L-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\69540S4CNMS1L-2714_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\69540S4CNMS1L-2714_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\70243S4SCFS1S-0656_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\70243S4SCFS1S-0656_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\70540S4CNMS1L-2714_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\70540S4CNMS1L-2714_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\70730S4SBAL2V-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\70730S4SBAL2V-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\712Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\712Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\7130H3S4TC3F-1999_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\7130H3S4TC3F-1999_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\7130S4SBAL2H-0005_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\7130S4SBAL2H-0005_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\71630027-0670_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\71630027-0670_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\71743S3WIFS1D-1663_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\71743S3WIFS1D-1663_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\72143S4SCFS1S-0656_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\72143S4SCFS1S-0656_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\721MC29733-0220_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\721MC29733-0220_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\724450x450 (2).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\724450x450 (2).webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\725MS4822R33D-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\725MS4822R33D-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\726star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\726star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\72840H3CVHE5S-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\72840H3CVHE5S-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\73640F1MNFB5Q-2999_7.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\73640F1MNFB5Q-2999_7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\74040F1KYME8L-0001_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\74040F1KYME8L-0001_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\740Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\740Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\74337F3COLA6U-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\74337F3COLA6U-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\74643S4SCFS1S-0656_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\74643S4SCFS1S-0656_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\74816111-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\74816111-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\74940S4CNMS1L-2714_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\74940S4CNMS1L-2714_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\74MKS8006-0040_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\74MKS8006-0040_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\75130S3SIMM8L-1999_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\75130S3SIMM8L-1999_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\75835S4G3FM1I-2613_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\75835S4G3FM1I-2613_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\75940F3HYME5Y-1251_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\75940F3HYME5Y-1251_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\76340R4BRMS1L-1999_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\76340R4BRMS1L-1999_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\76440T0LAHS1L-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\76440T0LAHS1L-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\76MS4827JB0Z-0018_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\76MS4827JB0Z-0018_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\774450x450 (3).webp",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\774450x450 (3).webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\77635S4G3FM1I-2613_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\77635S4G3FM1I-2613_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\77943S3WIFS1D-1663_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\77943S3WIFS1D-1663_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\77windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\77windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\78040F1KYME8L-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\78040F1KYME8L-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\78330027-0670_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\78330027-0670_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\784liz-climo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\784liz-climo-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\78543S4SCFS1S-0656_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\78543S4SCFS1S-0656_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\78630S4SBAL2H-0005_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\78630S4SBAL2H-0005_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\79132S3SATU3L-1999_8.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\79132S3SATU3L-1999_8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\791MKC1716CZ-0040_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\791MKC1716CZ-0040_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\79243T2CNFS1L-2605_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\79243T2CNFS1L-2605_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\79340H3WBFE5S-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\79340H3WBFE5S-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\79830H3S8OC3L-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\79830H3S8OC3L-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\801GWK-8463-MK-0001_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\801GWK-8463-MK-0001_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\802MK-2191-1218_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\802MK-2191-1218_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\806MK1087SET-0040_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\806MK1087SET-0040_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\80840S4SYFS2Y-4050_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\80840S4SYFS2Y-4050_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\811MK-2191-1218_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\811MK-2191-1218_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\82043R4HYFS2E-1999_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\82043R4HYFS2E-1999_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\8243S4ARFS4D-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8243S4ARFS4D-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\828MS482E97R3-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\828MS482E97R3-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\82MKC1405AN-0040_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\82MKC1405AN-0040_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\83030T9G0LE3L-1663_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\83030T9G0LE3L-1663_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\846MR3100CENX-5544_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\846MR3100CENX-5544_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\851OF150AD5MF-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\851OF150AD5MF-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\85443R4HYFS2E-1999_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\85443R4HYFS2E-1999_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\86730027-0670_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\86730027-0670_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\867MR4826Y3GZ-6990_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\867MR4826Y3GZ-6990_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\868MS4107O9BA-2470_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\868MS4107O9BA-2470_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\868star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\868star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\872MR3100CENX-5544_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\872MR3100CENX-5544_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\8730027-0670_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8730027-0670_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\8730S2G2BL1U-2623_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8730S2G2BL1U-2623_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\87330S4SBAL2H-0005_8.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\87330S4SBAL2H-0005_8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\88030S4SBAL2L-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\88030S4SBAL2L-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\88840T0LAHS1L-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\88840T0LAHS1L-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\90840H3CVHE5S-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\90840H3CVHE5S-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\91830027-0670_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\91830027-0670_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\92440F3HYME5Y-1251_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\92440F3HYME5Y-1251_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\930MK-2191-1218_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\930MK-2191-1218_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\93230S2G2BL1U-2623_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\93230S2G2BL1U-2623_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\934MS4822IBFD-0001_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\934MS4822IBFD-0001_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\93643S3WIFS1D-1663_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\93643S3WIFS1D-1663_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\936star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\936star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\940Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\940Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\947star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\947star-wars-darth-vader-in-the-rain-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\95216111-0001_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\95216111-0001_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\953MK1087SET-0040_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\953MK1087SET-0040_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\95535S4G3FM1I-2613_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\95535S4G3FM1I-2613_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\957liz-climo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\957liz-climo-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\95830027-0670_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\95830027-0670_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\974windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\974windows-lock-screen-icon-b3nhsx0gqxhrki5l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\976MK-2191-1218_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\976MK-2191-1218_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\979MR4822C33D-0001_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\979MR4822C33D-0001_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\98640S4TSHP3D-0001_4.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\98640S4TSHP3D-0001_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\98843R3OLFE2D-0251_1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\98843R3OLFE2D-0251_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\988liz-climo-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\988liz-climo-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\99240S4SYFS2Y-4050_5.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\99240S4SYFS2Y-4050_5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\992Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\992Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\9930T9G0LE3L-1663_2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\9930T9G0LE3L-1663_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\993MKS8006-0040_3.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\993MKS8006-0040_3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\99540T0LAHS1L-0001_7.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\99540T0LAHS1L-0001_7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\995Donald_Trump_official_portrait.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\995Donald_Trump_official_portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\images\\website-images\\999450x450.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\999450x450.webp"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\AddBasket.js",
+      "PackagePath": "staticwebassets\\assets\\js\\AddBasket.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\ColorSizeCount.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ColorSizeCount.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\account-detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\account-detail.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\detail.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\header.js",
+      "PackagePath": "staticwebassets\\assets\\js\\header.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\image.js",
+      "PackagePath": "staticwebassets\\assets\\js\\image.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\imageDelete.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imageDelete.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\link.js",
+      "PackagePath": "staticwebassets\\assets\\js\\link.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\password.js",
+      "PackagePath": "staticwebassets\\assets\\js\\password.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\search.js",
+      "PackagePath": "staticwebassets\\assets\\js\\search.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\shop-search.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shop-search.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\shop.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shop.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slider.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\js\\toggle.js",
+      "PackagePath": "staticwebassets\\assets\\js\\toggle.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\assets\\styles\\css\\main.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\about\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\about\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\about\\_collection.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\about\\_collection.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\about\\_story.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\about\\_story.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\account\\_login.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\account\\_login.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\account\\_register.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\account\\_register.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\cart\\_cart.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\cart\\_cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\commonpart\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\commonpart\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\commonpart\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\commonpart\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\contact\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\contact\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_bestSelling.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_bestSelling.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_collection.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_collection.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_followers.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_followers.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_honey.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_honey.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_sale.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_sale.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_services.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_services.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_tribeca.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_tribeca.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_wellRed.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_wellRed.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\index\\_wolf.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\index\\_wolf.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\password\\_password.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\password\\_password.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\profile\\_account-detail.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\profile\\_account-detail.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\profile\\_favorites.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\profile\\_favorites.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\profile\\_order-history.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\profile\\_order-history.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\profile\\_overview.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\profile\\_overview.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\shop\\_checkout.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\shop\\_checkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\shop\\_details.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\shop\\_details.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\shop\\_reviews.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\shop\\_reviews.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\shop\\_shop.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\shop\\_shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\styles\\scss\\shop\\_similar-items.scss",
+      "PackagePath": "staticwebassets\\assets\\styles\\scss\\shop\\_similar-items.scss"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\template\\resetpassword.html",
+      "PackagePath": "staticwebassets\\assets\\template\\resetpassword.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\assets\\template\\verifyemail.html",
+      "PackagePath": "staticwebassets\\assets\\template\\verifyemail.html"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kzeyn\\OneDrive\\Desktop\\Final\\Final-Project-Back\\Final-project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Final-project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Final-project.props",
+      "PackagePath": "build\\Final-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Final-project.props",
+      "PackagePath": "buildMultiTargeting\\Final-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Final-project.props",
+      "PackagePath": "buildTransitive\\Final-project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

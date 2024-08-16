@@ -1,0 +1,44 @@
+﻿@model IEnumerable<SubCategoryViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container m-3">
+    <h1>Index</h1>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="color:white">
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th style="color:white">
+                    Category Name
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="color:white">
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td style="color:white">
+                        @item.Categories?.FirstOrDefault(c => c.Id == item.CategoryId)?.Name
+                    </td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

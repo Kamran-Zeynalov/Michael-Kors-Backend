@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Order-History";
+    List<Order> orders = ViewBag.Orders;
+}
+@model User
+
+
+<section id="Order-History">
+    <div class="container">
+        <div class="row overview">
+            <div class="account">
+                <div class="left">
+                    <h3>My Account</h3>
+                    <p>Welcome back,  @User.Identity.Name.</p>
+                </div>
+                <div class="right d-md-block d-none">
+                    <h6>CAN WE HELP?</h6>
+                    <p>@Html.Raw("fidanji@code.edu.az")</p>
+                    <a asp-controller="Contact" asp-action="Index">Contact us</a>
+                </div>
+            </div>
+        </div>
+        <div class="row overview-container">
+            <div class="col-md-3">
+                <div class="my-menu">
+                    <div>
+                        <h4>My Account Menu</h4>
+                    </div>
+                    <div>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="left-side">
+                    <ul>
+                        <li class="@Html.IsSelected("Order", "Profile")"><a asp-action="Profile" asp-controller="Order">Overview</a></li>
+                        <li class="@Html.IsSelected("Account", "AccountDetail")"><a asp-action="AccountDetail" asp-controller="Account">Account details</a></li>
+                        <li class="@Html.IsSelected("Order", "OrderHistory")"><a asp-action="OrderHistory" asp-controller="Order">Order History</a></li>
+                        <li class="@Html.IsSelected("Basket", "Favorite")"><a asp-action="Favorite" asp-controller="Basket">My Favourites</a></li>
+                        <li class="@Html.IsSelected("Account", "ChangePassword")"><a asp-action="ChangePassword" asp-controller="Account">Change Password</a></li>
+                    </ul>
+                    <div class="line d-md-block d-none"></div>
+                    <div class="logout">
+                        <a asp-controller="Account" asp-action="LogOut">Sign Out</a>
+                    </div>
+                </div>
+                <div class="my-menu">
+                    <div>
+                        <h4>Can We Help</h4>
+                    </div>
+                    <div>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="left-side d-md-none">
+                    <ul>
+                        <li style="border-bottom: 1px solid black; width: fit-content;" class="active">
+                            <a>@Html.Raw("fidanji@code.edu.az")</a>
+                        </li>
+                        <li style="border-bottom: 1px solid black; width: fit-content;">
+                            <a asp-controller="Contact" asp-action="Index">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="order-history">
+                    <div class="title">
+                        <h4>Order History</h4>
+                    </div>
+                    <div class="orders">
+                        <div class="order">
+                            @if (orders.Count() > 0)
+                            {
+                                @foreach (Order order in orders)
+                                {
+
+                                    <div class="col-md-8">
+                                        <div class="row" style="display:flex; align-items:center">
+                                            <div class="col-6 product-figure-block">
+                                                <img src="~/assets/images/website-images/@order.OrderItems.FirstOrDefault()?.Product.Images.FirstOrDefault()?.Name" alt="">
+                                            </div>
+                                            <div class="col-6 head">
+                                                <p class="header"><strong>@order.OrderItems.FirstOrDefault()?.Product.Name</strong></p>
+                                                <p class="detail">QTY: @order.OrderItems.FirstOrDefault()?.Count</p>
+                                                <p class="detail">$@order.TotalPrice.ToString(".##")</p>
+                                                @if (order.Status == null)
+                                                {
+                                                    <p style="background-color:orange;color:white; width:70px; padding:3px;">On hold</p>
+                                                }
+                                                else if (order.Status == true)
+                                                {
+                                                    <p style="background-color:green;color:white; width:70px; padding:3px;">Confirmed</p>
+                                                }
+                                                else 
+                                                {
+                                                    <p style="background-color:red;color:white; width:70px; padding:3px;">Rejected</p>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <p style="color:gray">Order Empty</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

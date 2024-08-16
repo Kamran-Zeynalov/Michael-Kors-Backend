@@ -1,0 +1,450 @@
+﻿@using Final_project.Services.Interfaces;
+@using Final_project.Utilities.Roles
+@inject ILayoutService layout
+
+@if (User.Identity.IsAuthenticated)
+{
+@inject IBasketService basketservice
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Slider -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+
+    <!-- bootstap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+          rel="stylesheet">
+
+    <!-- Toasrt --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"   />
+
+    <!-- Animate.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/assets/styles/css/main.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="~/assets/images/favicon.ico">
+
+    <title>@ViewData["Title"]</title>
+</head>
+
+<body>
+    <header class="animate__animated" id="header">
+        <div class="black"></div>
+        <div class="container-fluid">
+            <div class="row first-head">
+                <div class="row up-up d-md-flex d-none">
+                    <div class="col-md-6 p-0 m-0">
+                        <div class="location-kors">
+                            <div class="location">
+                                <p>
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <a asp-area="Admin" asp-controller="Home" asp-action="Index">
+                                            <i class="bi bi-geo-alt-fill"></i>
+                                        </a>
+                                    }
+                                    else if (User.IsInRole("SuperAdmin"))
+                                    {
+                                        <a asp-area="Admin" asp-controller="Home" asp-action="Index">
+                                            <i class="bi bi-geo-alt-fill"></i>
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                    <a href="https://www.google.com/maps/search/Michael+Kors/38.6831441,27.5301703,4z?entry=ttu" target="_blank">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </a>
+                                    }
+                                </p>
+                            </div>
+                            <div class="kors">
+                                <p>
+                                    <a asp-controller="About" asp-action="Index">ABOUT</a>
+                                    <span>/</span>
+                                    <a asp-controller="CONTACT" asp-action="Index">CONTACT</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 m-0 p-0">
+                        <div class="big-menu">
+                            
+                            <div class="heart">
+                                <p>
+                                    <a asp-controller="Basket" asp-action="Favorite">
+                                        <i class="bi bi-heart-fill"></i>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="person">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <p>
+                                        <a asp-controller="Order" asp-action="Profile">
+                                            <i style="color:green" class="bi bi-person-circle"></i>
+                                        </a>
+                                        
+                                    </p>
+                                }
+                                else
+                                {
+                                    <p>
+                                        <a asp-controller="Account" asp-action="Login">
+                                            <i class="bi bi-person-circle"></i>
+                                        </a>
+                                    </p>
+                                }
+
+                            </div>
+                            <div class="cart">
+                                <p>
+                                    <a asp-controller="Basket" asp-action="Cart">
+                                        <i class="bi bi-bag"></i>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            Basket basket = await basketservice.GetBasket();
+
+                                            @if (basket != null && basket.BasketItems != null && basket.BasketItems.Count > 0)
+                                            {
+                                                <span class="basket-count">@basket.BasketItems.Count</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="basket-count">0</span>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <span class="basket-count">0</span>
+                                        }
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 d-md-none d-block">
+                    <div class="small-icons">
+                        <div class="icon">
+                            <p>
+                                <i class="menum bi bi-list"></i>
+                                <i class="menu-x bi bi-x-lg"></i>
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-12 col-4 m-0 p-0">
+                    <div class="logo">
+                        <h1>
+                            <a asp-controller="Home" asp-action="Index" style="color:black; text-decoration:none">
+                                Michael Kors
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="col-4 d-md-none d-block">
+                    <div class="heart-cart">
+                        <div class="heart">
+                            <p>
+                                <a asp-controller="Basket" asp-action="Favorite">
+                                    <i class="bi bi-heart-fill"></i>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="cart">
+                            <p>
+                                <a asp-controller="Basket" asp-action="Cart">
+                                    <i class="bi bi-bag"></i>
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        Basket basket = await basketservice.GetBasket();
+
+                                        @if (basket != null && basket.BasketItems != null && basket.BasketItems.Count > 0)
+                                        {
+                                            <span class="basket-count">@basket.BasketItems.Count</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="basket-count">0</span>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="basket-count">0</span>
+                                    }
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 d-md-flex d-none">
+                    <div class="categories">
+                        <ul>
+                            @foreach (var categories in await layout.ShowCategories())
+                            {
+                                <li class="hoverr ">
+                                    <a>
+                                        @categories.Name
+                                    </a>
+                                    <ul>
+                                        <div class="dropDown animate__animated">
+                                            <div class="row">
+                                                <div class="col-md-2"></div>
+                                                <div class="col-md-7">
+                                                    <div class="row drp">
+                                                        @foreach (var subCategories in categories.SubCategories)
+                                                        {
+                                                            <div class="col-md-3">
+                                                                <h6><a>@subCategories.Name</a></h6>
+                                                                <div class="pages women">
+                                                                    <ul>
+                                                                        @foreach (var subSubCategories in subCategories.SubSubCategories)
+                                                                        {
+                                                                            <li><a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@subSubCategories.Id">@subSubCategories.Name</a></li>
+                                                                        }
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="featured">
+                                                        
+                                                        <div class="image">
+                                                            <img src="~/assets/images/ABOUT_US_1.webp" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </header>
+
+    <div class="side-menu d-md-none">
+        <div class="location-kors">
+            <div class="location">
+                <p>
+                    <a href="https://www.google.com/maps/search/Michael+Kors/38.6831441,27.5301703,4z?entry=ttu" target="_blank">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="kors">
+                <p>
+                    <a asp-controller="About" asp-action="Index">ABOUT</a>
+                    <span>/</span>
+                    <a asp-controller="CONTACT" asp-action="Index">CONTACT</a>
+                </p>
+            </div>
+        </div>
+        <div class="menu-category">
+            <ul>
+                @foreach (var category in await layout.ShowCategories())
+                {
+                    <li>
+                        <div class="menu-li">
+                            <p style="text-transform:uppercase">
+                                <a>@category.Name</a>
+                            </p>
+                            <p>
+                                <i class="bi bi-chevron-compact-down menu-down"></i>
+                                <i class="bi bi-chevron-compact-up menu-up"></i>
+                            </p>
+                        </div>
+                        <ul class="slideDownJ">
+                            @foreach (var subCategory in category.SubCategories)
+                            {
+                                <li>
+                                    <div class="menu-l" style="display:block">
+                                        <p style="text-transform:uppercase">
+                                            <b><a>@subCategory.Name</a></b>
+                                        </p>
+                                        <ul class="slideDownJ">
+                                            @foreach (var subSubCategory in subCategory.SubSubCategories)
+                                            {
+                                                <li>
+                                                    <div class="menu-li">
+                                                        <p style ="text-transform:uppercase">
+                                                            <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@subSubCategory.Id">@subSubCategory.Name</a>
+                                                        </p>
+                                                    </div>
+
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                    
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+               
+             </ul>
+        </div>
+
+    </div>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer id="FooterContent">
+        <div class="container first-footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="country-store">
+                        <div class="country">
+                            <a href="">
+                                <i class="bi bi-globe"></i>
+                                <span>United States | EN</span>
+                            </a>
+                        </div>
+                        <div class="store"><a href="https://www.google.com/maps/search/Michael+Kors/@Html.Raw("@38.6831441,27.5301703,4z?entry=ttu")" target="_blank"><i class="bi bi-geo-alt-fill"></i> Find a Store</a></div>
+                    </div>
+                    <div class="social-media">
+                        <ul>
+                            <li><a href="https://www.facebook.com/MichaelKors/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/michaelkors" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+                            <li>
+                                <a href="https://www.pinterest.com/michaelkors/" target="_blank"><i class="bi bi-pinterest"></i></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/michaelkors" target="_blank"><i class="bi bi-youtube"></i></a></li>
+                            <li>
+                                <a href="https://www.instagram.com/michaelkors/" target="_blank"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.tiktok.com/@Html.Raw("@michaelkors")" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 footer-right">
+                    <div class="col-md-4">
+                        <div class="d-md-flex d-none">
+                            <h6 class="headline">Company</h6>
+                            <p class="d-md-none d-block">+</p>
+                        </div>
+                        <div class="head-plus d-md-none d-flex">
+                            <h6 class="headline">Company</h6>
+                            <p class="d-md-none d-block">+</p>
+                        </div>
+                        <ul>
+                            <li><a asp-controller="About" asp-action="Index">About Us</a></li>
+                            <li><a href="https://www.michaelkors.com/careers.html" target="_blank">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-md-flex d-none">
+                            <h6 class="headline">My Account</h6>
+                            <p class="d-md-none d-block">+</p>
+                        </div>
+                        <div class="head-plus d-md-none d-flex">
+                            <h6 class="headline">My Account</h6>
+                            <p class="d-md-none d-block">+</p>
+                        </div>
+                        <ul>
+                            <li><a asp-controller="Account" asp-action="Register">Create account</a></li>
+                            <li><a href="https://www.michaelkors.com/info/accounts.html" target="_blank">Account Information</a></li>
+                            <li>@if (User.Identity.IsAuthenticated)
+                                {
+                                    <p>
+                                        <a asp-controller="Order" asp-action="OrderHistory">
+                                            My Orders
+                                        </a>
+                                        
+                                    </p>
+                                }
+                                else
+                                {
+                                    <p>
+                                        <a asp-controller="Account" asp-action="Login">
+                                            My Orders
+                                        </a>
+                                    </p>
+                                }
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-md-flex d-none">
+                            <h6 class="headline">Customer Service</h6>
+                            <p class="d-md-none d-block">+</p>
+                        </div>
+                        <div class="head-plus d-md-none d-flex">
+                            <h6 class="headline">Customer Service</h6>
+                            <p class="d-md-none d-block">+</p>
+                        </div>
+                        <ul>
+                            <li><a asp-controller="Contact" asp-action="Index">Contact Us</a></li>
+                            <li><a href="https://www.michaelkors.com/info/shipping-terms.html" target="_blank">Shipping Terms</a></li>
+                            <li><a href="https://www.michaelkors.com/info/faq.html" target="_blank">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container second-footer">
+            <div class="row">
+                <div class="line"></div>
+                <div class="col-md-12">
+                    <ul>
+                        <li>©2024 Michael Kors</li>
+                        <li><a href="https://www.michaelkors.com/info/privacy-notice.html" target="_blank">Privacy Notice</a></li>
+                        <li><a href="https://www.michaelkors.com/info/terms-conditions.html" target="_blank">Terms & Conditions</a></li>
+                        <li>
+                            <a href="https://www.michaelkors.com/info/payment-policy.html" target="_blank">
+                                Payment Policy<i class="bi bi-check2"></i><i class="bi bi-x-octagon-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="~/assets/js/slider.js"></script>
+    <script src="~/assets/js/toggle.js"></script>
+    <script src="~/assets/js/header.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

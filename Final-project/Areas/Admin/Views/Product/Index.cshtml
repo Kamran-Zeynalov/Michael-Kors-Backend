@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+
+    <h1>Index</h1>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+
+    <form method="post" action="#" class="search  mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="input-group input mb-3" style="width:100%;display:flex;margin-bottom:20px;">
+                        <input style="border:1px solid white;" type="text" class="form-control search-input" name="search" placeholder="Search...." autocomplete="off" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button style="color:white" class="btn btn-outline-secondary search_btn" type="submit" id="button-addon2">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="color:white">
+                    Image
+                </th>
+                <th style="color:white">
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th style="color:white">
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th style="color:white">
+                    @Html.DisplayNameFor(model => model.DiscountPrice)
+                </th>
+                <th style="color:white">
+                    Product's sizes and colors
+                </th>
+                <th style="color:white">
+                    Count
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="partials">
+            @await Html.PartialAsync("_ProductPartial", Model)
+        </tbody>
+    </table>
+
+    <nav class="mt-5" aria-label="...">
+        <ul class="pagination">
+            <li class="page-item  @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage-1)" tabindex="-1">Previous</a>
+            </li>
+            @for (int i = 1; i <= ViewBag.TotalPage; i++)
+            {
+                <li class="page-item @(i==ViewBag.CurrentPage ? "active pointerNone" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+                </li>
+            }
+
+            <li class="page-item @(ViewBag.TotalPage == ViewBag.CurrentPage ? "disabled" : "")">
+                <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage+1)">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+@section Scripts {
+    <script src="~/assets/js/search.js"></script>
+}

@@ -1,0 +1,509 @@
+﻿@{
+    ViewData["Title"] = "Product Detail";
+    List<Product> products = ViewBag.Products;
+}
+
+@model Product
+
+@{
+    HashSet<string> renderedColors = new HashSet<string>();
+}
+@if (TempData["Basket"] != null)
+{
+    <div id="basket" style="display:none">@TempData["Basket"]</div>
+}
+
+@if (TempData["Stock"] != null)
+{
+    <div id="stock" style="display:none">@TempData["Stock"]</div>
+}
+
+<section id="Detail">
+    <form>
+        <div class="container-fluid m-0 p-0">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="pages">
+                        <a href="">@Model.SubSubCategory.Name</a> /
+                        <a class="now">@Model.Name</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row detail">
+                <div class="col-md-6">
+                    <div class="row slider-notebook">
+                        <div class="col-md-2 slick-detail-1">
+                            <div class="up-ic">
+                                <i class="bi bi-chevron-compact-up rightIcon"></i>
+                            </div>
+                            <div class="slick-detail">
+                                @foreach (var image in Model.Images)
+                                {
+                                    <div>
+                                        <a href="#id1">
+                                            <img class="active" src="~/assets/images/website-images/@image.Name"
+                                                 style="cursor:pointer" alt="">
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                            <div class="down-ic">
+                                <i class="bi bi-chevron-compact-down rightIcon"></i>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            @foreach (var image in Model.Images)
+                            {
+                                <div class="image" onmousemove="zoom(event)" id="id1"
+                                     style="background-image: url('/assets/images/website-images/@image.Name');">
+                                    <img src="~/assets/images/website-images/@image.Name" style="cursor:pointer" alt="">
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row slider-phone p-0">
+                    @foreach (var image in Model.Images)
+                    {
+                        <div class="col-12">
+                            <div class="image">
+                                <img src="~/assets/images/website-images/@image.Name" alt="">
+                                <i class="bi bi-heart"></i>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <div class="col-md-6 sticky-detail">
+                    <div class="product-detail-container">
+
+                        <div class="product-brand">
+                            <h3>@Model.Brand.Name</h3>
+                        </div>
+                        <div class="product-name">
+                            <h1>@Model.Name</h1>
+                        </div>
+                        <div class="product-ratings">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 25 25"
+                                 aria-hidden="true" focusable="false"
+                                 style="width: 16px !important; height: 16px !important;">
+                                <polygon points="25 9.12 15.5669599 9.12 12.512219 0 9.40860215 9.12 0 9.12 7.55131965 14.856 4.47214076 24 12.512219 18.216 20.5522972 24 17.4731183 14.856"
+                                         style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </polygon>
+                                <path d=""
+                                      style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </path>
+                                <defs>
+                                    <linearGradient id="bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L"
+                                                    x1="99.99%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color: rgb(35, 31, 32); stop-opacity: 1;">
+                                        </stop>
+                                        <stop offset="1%" style="stop-color: rgb(209, 209, 209); stop-opacity: 1;">
+                                        </stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 25 25"
+                                 aria-hidden="true" focusable="false"
+                                 style="width: 16px !important; height: 16px !important;">
+                                <polygon points="25 9.12 15.5669599 9.12 12.512219 0 9.40860215 9.12 0 9.12 7.55131965 14.856 4.47214076 24 12.512219 18.216 20.5522972 24 17.4731183 14.856"
+                                         style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </polygon>
+                                <path d=""
+                                      style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </path>
+                                <defs>
+                                    <linearGradient id="bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L"
+                                                    x1="99.99%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color: rgb(35, 31, 32); stop-opacity: 1;">
+                                        </stop>
+                                        <stop offset="1%" style="stop-color: rgb(209, 209, 209); stop-opacity: 1;">
+                                        </stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 25 25"
+                                 aria-hidden="true" focusable="false"
+                                 style="width: 16px !important; height: 16px !important;">
+                                <polygon points="25 9.12 15.5669599 9.12 12.512219 0 9.40860215 9.12 0 9.12 7.55131965 14.856 4.47214076 24 12.512219 18.216 20.5522972 24 17.4731183 14.856"
+                                         style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </polygon>
+                                <path d=""
+                                      style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </path>
+                                <defs>
+                                    <linearGradient id="bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L"
+                                                    x1="99.99%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color: rgb(35, 31, 32); stop-opacity: 1;">
+                                        </stop>
+                                        <stop offset="1%" style="stop-color: rgb(209, 209, 209); stop-opacity: 1;">
+                                        </stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 25 25"
+                                 aria-hidden="true" focusable="false"
+                                 style="width: 16px !important; height: 16px !important;">
+                                <polygon points="25 9.12 15.5669599 9.12 12.512219 0 9.40860215 9.12 0 9.12 7.55131965 14.856 4.47214076 24 12.512219 18.216 20.5522972 24 17.4731183 14.856"
+                                         style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </polygon>
+                                <path d=""
+                                      style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </path>
+                                <defs>
+                                    <linearGradient id="bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L"
+                                                    x1="99.99%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color: rgb(35, 31, 32); stop-opacity: 1;">
+                                        </stop>
+                                        <stop offset="1%" style="stop-color: rgb(209, 209, 209); stop-opacity: 1;">
+                                        </stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 25 25"
+                                 aria-hidden="true" focusable="false"
+                                 style="width: 16px !important; height: 16px !important;">
+                                <polygon points="25 9.12 15.5669599 9.12 12.512219 0 9.40860215 9.12 0 9.12 7.55131965 14.856 4.47214076 24 12.512219 18.216 20.5522972 24 17.4731183 14.856"
+                                         style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </polygon>
+                                <path d=""
+                                      style="fill: url(&quot;#bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L&quot;) !important;">
+                                </path>
+                                <defs>
+                                    <linearGradient id="bv_rating_summary_star_filled_1_0_99.99_40S3MTHP2L"
+                                                    x1="99.99%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color: rgb(35, 31, 32); stop-opacity: 1;">
+                                        </stop>
+                                        <stop offset="1%" style="stop-color: rgb(209, 209, 209); stop-opacity: 1;">
+                                        </stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <div class="product-price">
+                            @if (Model.DiscountPrice != 0)
+                            {
+                                <span><del>$@Model.Price.ToString(".##")</del></span>
+                                <span>$@Model.DiscountPrice.ToString(".##")</span>
+                            }
+                            else
+                            {
+                                <span>$@Model.Price.ToString(".##")</span>
+                            }
+                        </div>
+
+                        <div class="member-reward">
+                            <p>BECOME KORSVIP MEMBER! </p>
+                            <a asp-controller="Account" asp-action="Register">SIGN UP</a> or
+                            <a asp-controller ="Account" asp-action="Login">SIGN IN</a>
+                        </div>
+                        <span id="error" style="color:red"></span>
+                        <div class="color">
+                            <div class="name">
+                                <input hidden value="@Model.Id" id="Model" />
+                                <div><strong>COLOR:</strong></div>
+                                @foreach (var color in Model.ProductSizeColors)
+                                {
+                                    if (!renderedColors.Contains(color.Color.Name))
+                                    {
+                                        renderedColors.Add(color.Color.Name);
+                                        <span class="color-namea" data-color="@color.Color.Value" style="cursor:pointer">@color.Color.Name</span>
+                                    }
+                                }
+                            </div>
+                            <div class="detail" style="display:flex; margin-right:9px; flex-wrap:wrap">
+                                @foreach (var color in Model.ProductSizeColors)
+                                {
+                                    if (!renderedColors.Contains(color.Color.Value))
+                                    {
+                                        renderedColors.Add(color.Color.Value);
+                                        <div class="bordered" style="border-color: black; cursor:pointer;">
+                                            <div class="color color-name" data-color="@color.Color.Value" style="background-color:@color.Color.Value"></div>
+                                        </div>
+                                    }
+                                }
+                            </div>
+
+                            <div class="size">
+                                <div class="size-chart" style="margin-top:10px">
+                                    <span>SIZES</span>
+                                </div>
+                                <div class="select-size us">
+                                    @foreach (var size in Model.ProductSizeColors)
+                                    {
+                                        <button type="button" class="size-button"
+                                                style="display:none;text-transform:uppercase; border-color:@size.Color.Value"
+                                                data-size-id="@size.Size.Id"
+                                                data-color-id="@size.Color.Id"
+                                                data-color="@size.Color.Value"
+                                                data-size="@size.Size.Name"
+                                                onclick="setClickedIds(@size.Color.Id, @size.Size.Id)">
+
+                                            @size.Size.Name
+                                        </button>
+                                    }
+                                </div>
+                            </div>
+
+                            <a id="clickedSizeId" style="display:none"></a>
+                            <a id="clickedColorId" style="display:none"></a>
+
+                            <div class="quantity-add-to-bag" style="display:block;">
+                                <span class="qty">Qty</span>
+                                <div class="quantity" style="position:static;  margin:20px 0;">
+                                    <input type="number" name="ccount" value="1" id="countInp" style="padding-left:5px; width:90px" />
+                                </div>
+
+                                <div class="add-to-bag">
+                                    <button type="button" id="clickButton" onclick="sendIds()">
+                                        <a style="width:100%;height:100%;display:inline-block;color:white;text-decoration:none;">
+                                            ADD TO BAG
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                            <form action="">
+                                <div class="srp-cs">
+                                    <div class="row cs">
+                                        <div class="col-md-10 text-left">
+                                            <a style="text-decoration:none; color:black" asp-action="AddWislist" asp-route-id="@Model.Id" asp-route-categoryId="@Model.SubSubCategory.Id" asp-route-subCategoryId="@Model.SubSubCategory.SubCategory.Id">
+                                                <i class="bi bi-heart"></i>
+                                                <span>ADD TO FAVOURITES</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </form>
+</section>
+ <section id="Similar-Items">
+        <div class="col-lg-12">
+            <h3 class="title">SIMILAR ITEMS</h3>
+            <div class="row carousel2">
+            @foreach(var product in products)
+            {
+                if (product.SubSubCategory.Id == Model.SubSubCategory.Id && product.Id != Model.Id)
+                {
+                    <div class="col-md-3">
+                        <div class="image" style="height:200px; overflow:hidden">
+                            <img style="object-fit:contain; height:100%" src="~/assets/images/website-images/@product.Images.FirstOrDefault()?.Name" alt="">
+                            <a asp-action="AddWislist" asp-route-id="@product.Id" asp-route-categoryId="@product.SubSubCategory.Id" asp-route-subCategoryId="@product.SubSubCategory.SubCategory.Id">
+                                <div class="heart-icon">
+                                    <i style="color:red;" class="bi bi-suit-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="category">@product.Brand.Name</div>
+                        <div class="name"><a href="">@product.Name</a></div>
+                        <div class="price">
+                            @if (product.DiscountPrice != 0)
+                            {
+                                <span><del>$@product.Price.ToString(".##")</del></span>
+                                <span style="text-decoration:none;">$@product.DiscountPrice.ToString(".##")</span>
+                            }
+                            else
+                            {
+                                <span style="text-decoration:none;">$@product.Price.ToString(".##")</span>
+                            }
+                        </div>
+                    </div>
+                }
+                else if (product.Brand.Id == Model.Brand.Id && product.Id != Model.Id)
+                {
+                    <div class="col-md-3">
+                        <div class="image" style="height:200px; overflow:hidden">
+                            <img style="object-fit:contain; height:100%" src="~/assets/images/website-images/@product.Images.FirstOrDefault()?.Name" alt="">
+                            <a asp-action="AddWislist" asp-route-id="@product.Id" asp-route-categoryId="@product.SubSubCategory.Id" asp-route-subCategoryId="@product.SubSubCategory.SubCategory.Id">
+                                <div class="heart-icon">
+                                    <i style="color:red;" class="bi bi-suit-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="category">@product.Brand.Name</div>
+                        <div class="name"><a href="">@product.Name</a></div>
+                        <div class="price">
+                            @if (product.DiscountPrice != 0)
+                            {
+                                <span><del>$@product.Price.ToString(".##")</del></span>
+                                <span style="text-decoration:none;">$@product.DiscountPrice.ToString(".##")</span>
+                            }
+                            else
+                            {
+                                <span style="text-decoration:none;">$@product.Price.ToString(".##")</span>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+            
+            </div>
+        </div>
+    </section>
+ <section id="Reviews">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="reviews">
+                    <h3>REVIEWS</h3>
+                    <div class="content">
+                        <p>Rate this product</p>
+                        <form asp-action="AddComment" method="post" class="review-it" id="commentForm">
+                            <input type="hidden" name="ProductId" value="@Model.Id" />
+                            <div class="form-group stars-icon" id="ratingStars">
+                                <input required type="number" name="Rating" style="opacity:0; position:absolute; z-index:-1;">
+                                <i class="bi bi-star star"></i>
+                                <i class="bi bi-star star"></i>
+                                <i class="bi bi-star star"></i>
+                                <i class="bi bi-star star"></i>
+                                <i class="bi bi-star star"></i>
+                            </div>
+                            <div class="your-review">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="reviewText">What did you think?</label>
+                                    <input required type="text" name="ReviewText" placeholder="Example: I bought this product a month ago"
+                                           class="form-control custom-input" id="reviewText">
+                                </div>
+                                <div class="form-check">
+                                    <input required type="checkbox" class="form-check-input" id="agreeTerms" name="AgreeToTerms">
+                                    <label class="form-check-label" for="agreeTerms">
+                                        I agree to the TERMS & CONDITIONS
+                                    </label>
+                                </div>
+                                <button id="submitCommentBtn" class="button-submit" type="submit">SUBMIT</button>
+                            </div>
+                        </form>
+
+
+                        <div class="filter">
+                            <p class="title">Reviews</p>
+                            <div class="sort">
+                                <p class="by">@Model.Comments.Count reviews</p>
+                            </div>
+                        </div>
+
+                        <div class="comments" id="commentSection">
+                            @Html.Partial("_CommentPartial", Model)
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+ </section>
+
+
+<script>
+    $(document).ready(function () {
+        $('#commentForm').submit(function (e) {
+            e.preventDefault(); 
+
+            var formData = $(this).serialize();
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("AddComment", "Shop")',
+                data: formData,
+                success: function (response) {
+                    $('.comments').html($(response).find('.comments').html());
+                    $('#reviewText').val('');
+                    $('#agreeTerms').prop('checked', false);
+                },
+                error: function () {
+                    alert('An error occurred while submitting the comment.');
+                }
+            });
+        });
+    });
+
+    function deleteComment(commentId) {
+        $.ajax({
+            url: '@Url.Action("DeleteComment", "Shop")',
+            type: 'POST',
+            data: { id: commentId },
+            success: function (result) {
+                if (result.success) {
+                    $('#comment-' + commentId).remove();
+                } else {
+                    alert(result.message);
+                }
+            },
+            error: function (xhr, status, error) {
+                console.error(xhr.responseText);
+            }
+        });
+    }
+</script>
+
+@section Scripts {
+    <script src="~/assets/js/detail.js"></script>
+    <script src="~/assets/js/AddBasket.js"></script>
+}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const data = document.getElementById("basket")
+        if (data != null) {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+            Toast.fire({
+                icon: "success",
+                title: "Updated Basket"
+            });
+            setTimeout(() => {
+                window.location.href = "/Basket/Cart";
+            }, 3000);
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const data = document.getElementById("stock")
+        if (data != null) {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+            Toast.fire({
+                icon: "warning",
+                title: "Out Of Stock"
+            });
+        }
+    });
+
+    function sendIds() {
+        var colorId = document.getElementById("clickedColorId").innerText;
+        var sizeId = document.getElementById("clickedSizeId").innerText;
+        var count = document.getElementById("countInp").value;
+        var model = document.getElementById("Model").value;
+
+        if (colorId.trim() === '' || sizeId.trim() === '' || count <= 0) {
+            document.getElementById("error").innerText = "Color, Size And Count must be Valid.";
+        }
+        else {
+            document.getElementById("error").innerText = "";
+            var url = "/Shop/AddBasket/" + model + "?colorId=" + colorId + "&sizeId=" + sizeId + "&count=" + count;
+            window.location.href = url;
+        }
+    }
+</script>
+
+

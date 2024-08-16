@@ -1,0 +1,206 @@
+﻿@using Final_project.Models;
+@{
+    ViewData["Title"] = "Register";
+}
+
+@model RegisterViewModel
+
+<section id="Register">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="create-account-header">
+                    <h2>Join <strong>KORS</strong>VIP</h2>
+                    <p>
+                        Create a Michael Kors account to start your favorites list, save your address and enjoy exciting VIP
+                        benefits
+                    </p>
+                </div>
+                <form class="registration" asp-action="Register" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Username" class="form-control-label" for="userName">User Name*</label>
+                        <span class="required">*Required</span>
+                        <input asp-for="Username" type="text" class="form-control" id="userName">
+                        <span asp-validation-for="Username" style="color : red"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Firstname" class="form-control-label" for="FirstName">First Name*</label>
+                        <input asp-for="Firstname" type="text" class="form-control" id="firstName">
+                        <span asp-validation-for="Firstname" style="color : red"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Lastname" class="form-control-label" for="LastName">Last Name*</label>
+                        <input asp-for="Lastname" type="text" class="form-control" id="lastName">
+                        <span asp-validation-for="Lastname" style="color : red"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="form-control-label" for="EmailAddress">Email Address*</label>
+                        <input asp-for="Email" type="email" class="form-control" id="emailAddress">
+                        <span asp-validation-for="Email" style="color : red"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" class="form-control-label" for="Password">Password*</label>
+                        <div class="password-input-container">
+                            <input asp-for="Password" type="password" class="form-control toggleable-password" id="password">
+                            <span class="toggle-password toggle-password-hide">
+                                <img src="~/assets/images/Hide.svg" alt="">
+                            </span>
+                            <span class="toggle-password toggle-password-show d-none">
+                                <img src="~/assets/images/Show.svg" alt="">
+                            </span>
+                        </div>
+                            <span asp-validation-for="Password" style="color : red"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ConfirmPassword" class="form-control-label" for="ConfirmPassword">Confirm Password*</label>
+                        <div class="password-input-container">
+                            <input asp-for="ConfirmPassword" type="password" class="form-control toggleable-password" id="confirmPassword">
+                            <span class="toggle-password toggle-password-hide">
+                                <img src="~/assets/images/Hide.svg" alt="">
+                            </span>
+                            <span class="toggle-password toggle-password-show d-none">
+                                <img src="~/assets/images/Show.svg" alt="">
+                            </span>
+                        </div>
+                            <span asp-validation-for="ConfirmPassword" style="color : red"></span>
+                    </div>
+                    <div class="line"></div>
+                    <div class="form-check">
+                        <input asp-for="Terms" type="checkbox" class="form-check-input" id="checkbox">
+                        <label asp-for="Terms" class="form-check-label" for="checkbox">
+                            Yes, sign me up! I want to receive news, style tips
+                            and more, including by email, phone and mail, from Michael Kors.
+                        </label>
+                    </div>
+                        <span asp-validation-for="Terms" style="color : red"></span>
+                    <button class="button-submit" type="submit">JOIN KORSVIP</button>
+                    <div class="sign-me">
+                        <p>
+                            By clicking JOIN KORSVIP, you acknowledge that you have read and agree to our KORSVIP Terms &
+                            Conditions,
+                        </p>
+                        <p>Website Terms & Conditions , and Privacy Notice.</p>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-lg-6">
+                <div class="loyalty-enabled">
+                    <div class="korsVIP-logo">
+                        <img src="~/assets/images/KorsVIP_Logo.svg" alt="">
+                    </div>
+                    <div class="korsVIP-brief">
+                        <h2>A MORE REWARDING WAY TO SHOP</h2>
+                        <p>
+                            <strong>KORS</strong>VIP invites you to experience our unparalleled rewards program. Enjoy insider
+                            experiences, special gifts, elite services and so much more.
+                        </p>
+                    </div>
+                    <div class="korsVIP-stages">
+                        <ul>
+                            <li>
+                                <div class="korsVIP-stage">STUDIO</div>
+                                <div class="korsVIP-points">Free to Join</div>
+                            </li>
+                            <li class="bar"></li>
+                            <li>
+                                <div class="korsVIP-stage">BACKSTAGE</div>
+                                <div class="korsVIP-points">3000+ Point</div>
+                            </li>
+                            <li class="bar"></li>
+                            <li>
+                                <div class="korsVIP-stage">RUNWAY</div>
+                                <div class="korsVIP-points">6000+ Point</div>
+                            </li>
+                            <li class="bar"></li>
+                            <li>
+                                <div class="korsVIP-stage">RED CARPET</div>
+                                <div class="korsVIP-points">15000+ Point</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="korsVIP-benefits">
+                        <h2>HOW POINTS WORK</h2>
+                        <div class="earning-points">
+                            <div class="points">
+                                <span class="points-highlighted">$1</span> =
+                                <span class="points-highlighted">
+                                    <div class="points-count">10</div>
+                                    <span class="word">POINTS</span>
+                                </span>
+                            </div>
+                            <p>That means a $250 purchase gets you 2,500 points.</p>
+                        </div>
+                    </div>
+                    <div class="how-content">
+                        <ul>
+                            <li>
+                                <div class="how-points-work-image">
+                                    <img src="~/assets/images/SignUp_Bonus.svg" alt="">
+                                </div>
+                                <div class="how-details">
+                                    <strong>100 POINTS FOR JOINING KORS</strong> VIP
+                                </div>
+                            </li>
+                            <li>
+                                <div class="how-points-work-image">
+                                    <img src="~/assets/images/Review_Bonus.svg" alt="">
+                                </div>
+                                <div class="how-details">
+                                    <strong>50 POINTS FOR SUBMITTING A REVIEW</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="how-points-work-image">
+                                    <img src="~/assets/images/WishList_Bonus.svg" alt="">
+                                </div>
+                                <div class="how-details">
+                                    <strong>10 POINTS FOR FAVORITING ITEMS</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="how-points-work-image">
+                                    <img src="~/assets/images/App_Bonus.svg" alt="">
+                                </div>
+                                <div class="how-details">
+                                    <strong>100 POINTS FOR SIGNING INTO THE APP</strong>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mk-korsVIP-benefits">
+                        <div class="korsVIP-sub-title">
+                            <strong>KORS</strong>VIP Benefits
+                        </div>
+                        <div class="korsVIP-benefit-list">
+                            <ul>
+                                <li>
+                                    <img src="~/assets/images/korsvip-free-shipping.svg" alt="">
+                                    <div class="label">Free Standard Shipping & Returns</div>
+                                </li>
+                                <li>
+                                    <img src="~/assets/images/my_benefits-private_styling_and_appointments.svg" alt="">
+                                    <div class="label">Private Styling + Appointments</div>
+                                </li>
+                                <li>
+                                    <img src="~/assets/images/my_benefits-early_access_to_new_arrivals.svg" alt="">
+                                    <div class="label">Early Access to Sale</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="learn-more-link">
+                        <a href="https://www.michaelkors.com/about-kors-vip.html" target="_blank">LEARN MORE</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/assets/js/password.js"></script>
+}

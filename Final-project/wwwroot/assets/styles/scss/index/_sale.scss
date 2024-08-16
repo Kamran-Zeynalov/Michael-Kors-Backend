@@ -1,0 +1,102 @@
+#Sale {
+    margin-top: 40px;
+
+    .sale {
+        height: 100%;
+        width: 95%;
+        background-image: url('/assets/images/SALE_BANNER_V1.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+
+        .promocode {
+            color: white;
+            text-align: center;
+            padding: 22px 0;
+
+            .headline {
+                font-size: 2.5rem;
+                letter-spacing: 8px;
+                padding-bottom: 10px;
+            }
+
+            .code {
+                font-size: 1.5rem;
+                letter-spacing: 4px;
+            }
+
+            .link {
+                letter-spacing: 2px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 15px;
+
+                a {
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: white;
+                    text-decoration: none;
+                }
+
+                i {
+                    font-size: 8px;
+                    display: inline-block;
+                    margin-top: 3px;
+                    margin-left: 7px;
+                }
+            }
+        }
+
+        @media only screen and (max-width:1200px) {
+            .promocode {
+                .headline {
+                    font-size: 20px;
+                }
+
+                .code {
+                    font-size: 15px;
+                    padding-top: 5px;
+                    margin-bottom: 0;
+                }
+
+                .link {
+                    margin-top: 0;
+                    padding-top: 5px;
+                }
+            }
+        }
+
+        @media only screen and (max-width:765px) {
+            .promocode {
+                .headline {
+                    margin-bottom: 0;
+                    font-size: 12px;
+                }
+
+                .code {
+                    font-size: 9px;
+                    padding-top: 5px;
+                    margin-bottom: 0;
+                }
+
+                .link {
+                    font-size: 9px;
+                    margin-top: 0;
+                    padding-top: 5px;
+
+                    a {
+                        font-size: 7px;
+                    }
+
+                    i {
+                        font-size: 4px;
+                        display: inline-block;
+                        margin-top: -2px;
+                        margin-left: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

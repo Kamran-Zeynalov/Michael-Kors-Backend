@@ -1,0 +1,453 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    List<Category> categories = ViewBag.Categories;
+}
+@model List<Follower>
+
+@if (TempData["Login"] != null)
+{
+    <div id="verify" style="display:none">@TempData["Login"]</div>
+}
+@if (TempData["Order"] != null)
+{
+    <div id="orderr" style="display:none">@TempData["Order"]</div>
+}
+
+<section id="Sale">
+    <div class="container-fluid sale">
+        <div class="promocode">
+            <h2 class="headline">ENJOY UP TO 30% OFF SALE*</h2>
+            <div class="link">
+                <a  asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "sale")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP LIMITED TIME PRICES</a>
+                <i class="bi bi-caret-right-fill"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Well-Red">
+    <div class="terms">
+        <a>ONLINE & IN STORE | TERMS APPLY</a>
+    </div>
+
+    <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+        <div class="img">
+            <img src="~/assets/images/HP_PROMO_1.webp" alt="">
+        </div>
+    </a>
+
+    <div class="text-content">
+        <h2 class="headline">WELL RED</h2>
+        <p class="ads">
+            A classic color reconsidered—bold crimson commands attention on everything from a flirty
+            mini dress to our must-have Tribeca bag.
+        </p>
+        <div class="link">
+            <p>
+                <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP WOMEN</a>
+            </p>
+            <p class="icon">
+                <i class="bi bi-caret-right-fill"></i>
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<section id="Tribeca">
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-6 mt-2">
+                <div class="image">
+                    <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+                        <img src="~/assets/images/HP_PROMO_2-1.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 mt-2">
+                <div class="image">
+                    <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+                        <img src="~/assets/images/HP_PROMO_2-2.webp" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="handbag-text">
+                    <h2 class="headline">INTRODUCING THE TRIBECA</h2>
+                    <div class="link">
+                        <p>
+                            <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP NOW</a>
+                        </p>
+                        <p class="icon">
+                            <i class="bi bi-caret-right-fill"></i>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="BestSelling">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row caption-line">
+                    <div class="col-md-4">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="caption">
+                            <p>BEST-SELLING STYLES</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="title-text">
+                    <h1>Now Trending</h1>
+                    <p>
+                        Quilted wallets, statement heels, polished bags and more—these styles are having a
+                        moment.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-link">
+                    <div class="image">
+                        <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+                            <img src="~/assets/images/HP_PROMO_3-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <p>
+                            <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP NOW</a>
+                        </p>
+                        <p class="icon">
+                            <i class="bi bi-caret-right-fill"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-link">
+                    <div class="image">
+                        <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+                            <img src="~/assets/images/HP_PROMO_3-2.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <p>
+                            <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP NOW</a>
+                        </p>
+                        <p class="icon">
+                            <i class="bi bi-caret-right-fill"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-link">
+                    <div class="image">
+                        <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+                            <img src="~/assets/images/HP_PROMO_3-3.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <p>
+                            <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP NOW</a>
+                        </p>
+                        <p class="icon">
+                            <i class="bi bi-caret-right-fill"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-link">
+                    <div class="image">
+                        <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+                            <img src="~/assets/images/HP_PROMO_3-4.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="link">
+                        <p>
+                            <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP NOW</a>
+                        </p>
+                        <p class="icon">
+                            <i class="bi bi-caret-right-fill"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Honey">
+    <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+        <div class="img">
+            <img src="~/assets/images/HP_PROMO_4.jpg" alt="">
+        </div>
+    </a>
+
+    <div class="text-content">
+        <h2 class="headline">Honey, Honey</h2>
+        <p class="ads">
+            A warm alternative to classic black styles, honey-hued leather jackets will lighten up your look as
+            winter turns to spring.
+        </p>
+        <div class="link">
+            <p>
+                <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "women")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP NOW </a>
+            </p>
+            <p class="icon">
+                <i class="bi bi-caret-right-fill"></i>
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<section id="Wolf">
+    <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "men")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">
+        <div class="img">
+            <img src="~/assets/images/HP_PROMO_5.jpg" alt="">
+        </div>
+    </a>
+
+    <div class="text-content">
+        <div class="link">
+            <p>
+                <a asp-controller="Shop" asp-action="Index" asp-route-categoryId="@categories.FirstOrDefault(p => p.Name == "men")?.SubCategories?.FirstOrDefault()?.SubSubCategories?.FirstOrDefault()?.Id">SHOP MEN </a>
+            </p>
+            <p class="icon">
+                <i class="bi bi-caret-right-fill"></i>
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<section id="Mk-Collection">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row caption-line">
+                    <div class="col-md-4">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="caption">
+                            <p>MICHAEL KORS COLLECTion</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="title-image-text">
+                    <a href="https://www.michaelkors-collection.com/" target="_blank">
+                        <div class="title">
+                            <p>
+                                THE FALL/WINTER 2024 MICHAEL KORS COLLECTION RUNWAY SHOW
+                            </p>
+                            <p class="small-text">Missed the show? Watch it <span>here</span></p>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?si=6BuJPAWS21nybR6Q&v=wunFwU2ubyk&feature=youtu.be" target="_blank">
+                        <div class="image">
+                            <img src="~/assets/images/HP_PROMO_6_V2.webp" alt="">
+                        </div>
+                    </a>
+                    <div class="text">
+                        <p>
+                            “This season, we’re taking everyone on holiday. It’s about the transcendent joy of
+                            getting away.” –Michael Kors
+                        </p>
+                    </div>
+                    <div class="link">
+                        <p>
+                            <a href="https://www.youtube.com/watch?si=6BuJPAWS21nybR6Q&v=wunFwU2ubyk&feature=youtu.be" target="_blank">WATCH THE SPRING/SUMMER 2024 COLLECTION </a>
+                        </p>
+                        <p class="icon">
+                            <i class="bi bi-caret-right-fill"></i>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="Followers">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-text">
+                    <h1>SHARE YOUR STYLE</h1>
+                    <p>
+                        Show us how you style your favorite Michael Kors finds! Use #InMyMK and tag @Html.Raw("MichaelKors")
+                        for
+                        a chance to be featured here.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row follewers-slider">
+            @foreach(var follower in Model)
+            {
+                <div class="col-md-3">
+                    <a asp-controller="Shop" asp-action="ProductDetail" asp-route-id="@follower.Product.Id">
+                        <div class="image" style="height:200px; overflow:hidden">
+                            <img style="object-fit:contain; height:100%" src="~/assets/images/website-images/@follower.Image" alt="">
+                            <div class="shop-now">
+                                <div>
+                                    <p>Shop now</p>
+                                    <p class="plus">+</p>
+                                    <p><span>@follower.Name</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section id="Services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo-info">
+                    <div class="logo">
+                        <img src="~/assets/images/1-korsvip.webp" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>kors<span>vip</span></h2>
+                        <p>Insider access, special offers and so much more.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="logo-info">
+                    <div class="logo">
+                        <img src="~/assets/images/2-get_in_touch.webp" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>GET IN TOUCH</h2>
+                        <p>Text us to hear about new arrivals and sales.</p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="logo-info">
+                    <div class="logo">
+                        <img src="~/assets/images/3-give_get.webp" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>GIVE 10%, GET 10%</h2>
+                        <p>Share the perks of <strong>KORS</strong>VIP with friends.</p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="logo-info">
+                    <div class="logo">
+                        <img src="~/assets/images/4-pre-loved.webp" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>MICHAEL KORS PRE-LOVED</h2>
+                        <p>Shop and sell on our resale marketplace.</p>
+                  
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="logo-info">
+                    <div class="logo">
+                        <img src="~/assets/images/5-kors_services.webp" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>KORS SERVICES</h2>
+                        <p>All the ways we can make shopping simpler.</p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="logo-info">
+                    <div class="logo">
+                        <img src="~/assets/images/1-korsvip.webp" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>KORS LOVES</h2>
+                        <p>Styles designed with sustainability in mind.</p>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const data = document.getElementById("verify")
+            if (data != null) {
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 6000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "success",
+                    title: "Welcome to the Michael Kors ",
+                });
+
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const data = document.getElementById("orderr")
+            if (data != null) {
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "success",
+                    title: "Order Success"
+                });
+            }
+        });
+    </script>
+}

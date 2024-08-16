@@ -1,0 +1,125 @@
+﻿@using Final_project.Utilities.Extensions
+@{
+    ViewData["Title"] = "Profile Overview";
+}
+
+
+
+<section id="Overview">
+    <div class="container">
+        <div class="row overview">
+            <div class="account">
+                <div class="left">
+                    <h3>My Account</h3>
+                    <p>Welcome back,  @User.Identity.Name.</p>
+                </div>
+                <div class="right d-md-block d-none">
+                    <h6>CAN WE HELP?</h6>
+                    <p>@Html.Raw("fidanji@code.edu.az")</p>
+                    <a asp-controller="Contact" asp-action="Index">Contact us</a>
+                </div>
+            </div>
+        </div>
+        <div class="row overview-container">
+            <div class="col-md-3">
+                <div class="my-menu">
+                    <div>
+                        <h4>My Account Menu</h4>
+                    </div>
+                    <div>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="left-side">
+                    <ul>
+                        <li class="@Html.IsSelected("Order", "Profile")"><a asp-action="Profile" asp-controller="Order">Overview</a></li>
+                        <li class="@Html.IsSelected("Account", "AccountDetail")"><a asp-action="AccountDetail" asp-controller="Account">Account details</a></li>
+                        <li class="@Html.IsSelected("Order", "OrderHistory")"><a asp-action="OrderHistory" asp-controller="Order">Order History</a></li>
+                        <li class="@Html.IsSelected("Basket", "Favorite")"><a asp-action="Favorite" asp-controller="Basket">My Favourites</a></li>
+                        <li class="@Html.IsSelected("Account", "ChangePassword")"><a asp-action="ChangePassword" asp-controller="Account">Change Password</a></li>
+                    </ul>
+                    <div class="line d-md-block d-none"></div>
+                    <div class="logout">
+                        <a asp-controller="Account" asp-action="LogOut">Sign Out</a>
+                    </div>
+                </div>
+                <div class="my-menu">
+                    <div>
+                        <h4>Can We Help</h4>
+                    </div>
+                    <div>
+                        <p>+</p>
+                    </div>
+                </div>
+                <div class="left-side d-md-none">
+                    <ul>
+                        <li style="border-bottom: 1px solid black; width: fit-content;" class="active">
+                            <a>@Html.Raw("fidanji@code.edu.az")</a>
+                        </li>
+                        <li style="border-bottom: 1px solid black; width: fit-content;">
+                            <a asp-controller="Contact" asp-action="Index">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="menu">
+                    <h3>MY ACCOUNT MENU</h3>
+                    <div class="row my-account-menu">
+                        <div class="col-md-4">
+                            <a asp-controller="Account" asp-action="AccountDetail">
+                                <div class="content-wrapper">
+                                    <i class="bi bi-person"></i>
+                                    <h3>Account details</h3>
+                                    <p>View or change your log-in information</p>
+                                    <button>View</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a asp-controller="Order" asp-action="OrderHistory">
+                                <div class="content-wrapper">
+                                    <i class="bi bi-clock-history"></i>
+                                    <h3>Order history</h3>
+                                    <p>Track and view order status and history</p>
+                                    <button>View</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a asp-controller="Basket" asp-action="Favorite">
+                                <div class="content-wrapper">
+                                    <i class="bi bi-heart"></i>
+                                    <h3>My Favourites</h3>
+                                    <p>Search, view, and amend your Favorites</p>
+                                    <button>View</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a asp-controller="Account" asp-action="ChangePassword">
+                                <div class="content-wrapper">
+                                    <i class="bi bi-pencil-square"></i>
+                                    <h3>Change Password</h3>
+                                    <p>Modify password details</p>
+                                    <button>View</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscription">
+                    <div class="subscription-title">
+                        Subscriptions & Data Subject Requests
+                    </div>
+                    <div class="subscription-detail">
+                        If you would like to unsubscribe from all future Michael Kors marketing emails, please
+                        use the link in the marketing email you received. For additional information about how
+                        to exercise any of your other available privacy rights, please visit our Privacy
+                        Notice.), please send your specific request to ConsumerDataRights@MichaelKors.com.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

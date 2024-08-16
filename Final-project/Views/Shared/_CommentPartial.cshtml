@@ -1,0 +1,60 @@
+﻿
+
+@foreach (var comment in Model.Comments)
+{
+    <div class="row comment" id="comment-@comment.Id">
+        <div class="col-lg-3">
+            <div class="nickname">@comment.UserName</div>
+            <div class="time">@FormatTime(comment.Time)</div>
+            @if (User.Identity.Name == comment.UserName)
+            {
+                <div class="delete-button">
+                    <button class="btn btn-danger" style="margin-top:10px; margin-bottom:10px;" onclick="deleteComment(@comment.Id)">Delete</button>
+                </div>
+            }
+        </div>
+        <div class="col-lg-9">
+            <div class="stars">
+                @for (int i = 0; i < comment.Rating; i++)
+                {
+                    <i class="bi bi-star-fill"></i>
+                }
+                @for (int i = comment.Rating; i < 5; i++)
+                {
+                    <i class="bi bi-star"></i>
+                }
+            </div>
+            <div class="review">
+                <p>@comment.ReviewText</p>
+            </div>
+        </div>
+    </div>
+}
+
+@functions {
+    string FormatTime(DateTime time)
+    {
+        TimeSpan timeSince = DateTime.Now - time;
+
+        if (timeSince.TotalMinutes < 1)
+        {
+            return "now";
+        }
+        else if (timeSince.TotalHours < 1)
+        {
+            return $"{(int)timeSince.TotalMinutes} minutes ago";
+        }
+        else if (timeSince.TotalDays < 1)
+        {
+            return $"{(int)timeSince.TotalHours} hours ago";
+        }
+        else if (timeSince.TotalDays < 7)
+        {
+            return $"{(int)timeSince.TotalDays} days ago";
+        }
+        else
+        {
+            return time.ToString("M/d/yyyy h:mm:ss tt");
+        }
+    }
+}
